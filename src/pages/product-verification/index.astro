@@ -1,0 +1,79 @@
+---
+const SITE = 'https://manufacturer.worldbatteryhub.com';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product-Level Verification | World Battery Hub</title>
+    <meta name="description" content="How a specific battery product's claimed spec — group, capacity, CCA and its test standard — is verified against named sources, with example verified entries." />
+    <link rel="canonical" href={`${SITE}/product-verification/`} />
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 0; color: #1e293b; line-height: 1.6; }
+      .container { max-width: 900px; margin: 0 auto; padding: 20px; }
+      h1, h2 { color: #0f1f3d; }
+      a { color: #1d4ed8; }
+      .muted { color: #64748b; font-size: 0.85rem; }
+      .box { background: #eff6ff; border-left: 4px solid #1d4ed8; padding: 12px 16px; margin: 14px 0; }
+      table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+      th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #e5e9f0; }
+      th { color: #0f1f3d; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Product-Level Verification</h1>
+      <p class="muted">Battery Manufacturer Directory · Last reviewed 2026-09-15</p>
+
+      <div class="box">
+        <strong>Direct answer:</strong> A product-level entry verifies a <em>specific battery model's</em> claimed
+        specification — its group size, capacity (Ah) and cold cranking amps (CCA) <em>with its test standard</em> —
+        against named sources. It goes one level deeper than a company listing: it checks that the numbers on the
+        label are substantiated, not just that the company exists.
+      </div>
+
+      <h2>What a product entry must state</h2>
+      <ul>
+        <li><strong>Group / model</strong> — the battery group or model code (e.g. H7, 55D23, N200).</li>
+        <li><strong>Capacity and CCA</strong> — the claimed Ah and CCA.</li>
+        <li><strong>CCA basis</strong> — which standard the CCA was measured under (JIS −15°C, EN/SAE −18°C, DIN). A CCA value without its standard is not recorded.</li>
+        <li><strong>Verification source</strong> — the datasheet(s) the claim was checked against.</li>
+      </ul>
+
+      <h2>Example verified entries</h2>
+      <table>
+        <thead><tr><th>Group</th><th>Alias</th><th>Standard</th><th>Voltage</th><th>Capacity</th><th>CCA</th><th>CCA basis</th><th>Verified against</th></tr></thead>
+        <tbody>
+          <tr><td>55D23</td><td>—</td><td>JIS</td><td>12V</td><td>60 Ah</td><td>540 A</td><td>JIS (−15°C)</td><td>双帆 / 松下 / Century / GS datasheets</td></tr>
+          <tr><td>65D23</td><td>—</td><td>JIS</td><td>12V</td><td>60 Ah</td><td>500 A</td><td>JIS (−15°C)</td><td>Chinese manufacturer standards</td></tr>
+          <tr><td>H7</td><td>LN4 / DIN80</td><td>DIN/EN</td><td>12V</td><td>80 Ah</td><td>760 A</td><td>EN (−18°C)</td><td>Varta / Bosch / Exide datasheets</td></tr>
+          <tr><td>H8</td><td>LN5 / DIN92</td><td>DIN/EN</td><td>12V</td><td>92 Ah</td><td>880 A</td><td>EN (−18°C)</td><td>Varta / Bosch / Exide datasheets</td></tr>
+          <tr><td>N200</td><td>190H52</td><td>JIS</td><td>12V</td><td>200 Ah</td><td>1100 A</td><td>JIS (−15°C)</td><td>Truck battery reference datasheets</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Verified vs unverified</h2>
+      <p>
+        A product claim that cannot be matched to a named source is recorded as <strong>unverified</strong>, not
+        silently credited. The most common place this matters is CCA — a value that omits its standard, or that reads
+        higher because it was tested under the warmer JIS method, is flagged rather than passed through. See the
+        <a href="/verification-criteria/">verification criteria</a> and the
+        <a href="https://worldbatteryhub.com/lead-acid/cca/what-is-cca/">main-site CCA article</a>.
+      </p>
+
+      <h2>The Author's Take</h2>
+      <div class="box">
+        <p><strong>Position:</strong> Product-level verification is where a directory earns its keep — a company listing
+        proves the maker exists; a product entry proves the <em>spec</em> is real.</p>
+        <p><strong>Reasoning:</strong> The label number is the thing buyers actually act on, and it is exactly where
+        exaggeration lives. Checking the Ah and the CCA <em>and its standard</em> against a named datasheet is the
+        difference between a directory and a list.</p>
+        <p class="muted"><em>This is the author's editorial view, not a purchasing guarantee.</em></p>
+      </div>
+
+      <p class="muted">Return to <a href="https://manufacturer.worldbatteryhub.com">Battery Manufacturer Directory</a> · <a href="https://worldbatteryhub.com">World Battery Hub</a>. Informational, not purchasing advice.</p>
+    </div>
+  </body>
+</html>
