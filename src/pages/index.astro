@@ -1,5 +1,8 @@
 ---
+import manufacturers from '../data/manufacturers.json';
+
 const SITE = 'https://manufacturer.worldbatteryhub.com';
+const items = manufacturers.manufacturers;
 ---
 
 <!DOCTYPE html>
@@ -8,7 +11,7 @@ const SITE = 'https://manufacturer.worldbatteryhub.com';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Battery Manufacturer Directory | World Battery Hub</title>
-    <meta name="description" content="Battery manufacturer directory — verified company, product and certification data for lead-acid and lithium battery makers." />
+    <meta name="description" content="Battery manufacturer directory — verified company data for lead-acid and lithium battery makers, each with an entity page and a claimed-vs-accredited verification status." />
     <link rel="canonical" href={`${SITE}/`} />
     <style>
       body { font-family: system-ui, sans-serif; margin: 0; color: #1e293b; line-height: 1.6; }
@@ -24,35 +27,25 @@ const SITE = 'https://manufacturer.worldbatteryhub.com';
   <body>
     <div class="container">
       <h1>Battery Manufacturer Directory</h1>
-      <p>A directory of battery manufacturers with verified company, product and certification data — so readers can tell a substantiated listing from an unverified claim.</p>
+      <p>A directory of battery manufacturers with verified company data. Click a manufacturer for its entity page. Company-level facts are cross-checked; certifications are recorded as claimed until independently accredited.</p>
 
       <h2>How listings are verified</h2>
-      <p>Every listing is checked against public sources before it appears. See the <a href="/verification-criteria/">verification criteria</a> and the <a href="/product-verification/">product-level verification</a> examples.</p>
+      <p>Every listing distinguishes a <em>claim</em> from an <em>independently accredited</em> certification. See the <a href="/verification-criteria/">verification criteria</a> and the <a href="/product-verification/">product-level verification</a> examples.</p>
 
       <h2>Directory</h2>
-      <p>Verified entries — company, country, chemistry and battery types. Data is cross-checked against public company and manufacturer sources.</p>
       <table>
         <thead><tr><th>Company</th><th>Country</th><th>Chemistry</th><th>Battery types</th></tr></thead>
         <tbody>
-          <tr><td>CATL (宁德时代)</td><td>China</td><td>Lithium (LFP/NMC)</td><td>EV cells &amp; packs, storage</td></tr>
-          <tr><td>BYD</td><td>China</td><td>Lithium (LFP)</td><td>EV Blade battery, storage</td></tr>
-          <tr><td>LG Energy Solution</td><td>South Korea</td><td>Lithium (NMC/LFP)</td><td>EV cells &amp; packs</td></tr>
-          <tr><td>Panasonic</td><td>Japan</td><td>Lithium (NMC)</td><td>EV cells (cylindrical)</td></tr>
-          <tr><td>Samsung SDI</td><td>South Korea</td><td>Lithium (NMC)</td><td>EV cells &amp; packs</td></tr>
-          <tr><td>EVE Energy (亿纬锂能)</td><td>China</td><td>Lithium (LFP)</td><td>Cells, power &amp; storage</td></tr>
-          <tr><td>CALB (中创新航)</td><td>China</td><td>Lithium (LFP/NMC)</td><td>EV cells &amp; packs</td></tr>
-          <tr><td>Clarios</td><td>USA</td><td>Lead-acid (AGM/EFB)</td><td>Automotive SLI</td></tr>
-          <tr><td>Exide Technologies</td><td>USA</td><td>Lead-acid</td><td>Automotive &amp; industrial</td></tr>
-          <tr><td>Varta</td><td>Germany</td><td>Lead-acid</td><td>Automotive SLI/AGM/EFB</td></tr>
-          <tr><td>EnerSys</td><td>USA</td><td>Lead-acid &amp; lithium</td><td>Industrial, motive power</td></tr>
-          <tr><td>GS Yuasa</td><td>Japan</td><td>Lead-acid &amp; lithium</td><td>Automotive &amp; industrial</td></tr>
-          <tr><td>Camel Group (骆驼)</td><td>China</td><td>Lead-acid</td><td>Automotive SLI/AGM</td></tr>
-          <tr><td>Fengfan (风帆)</td><td>China</td><td>Lead-acid</td><td>Automotive SLI</td></tr>
-          <tr><td>Tianneng (天能)</td><td>China</td><td>Lead-acid</td><td>Automotive &amp; e-bike</td></tr>
-          <tr><td>Chaowei (超威)</td><td>China</td><td>Lead-acid</td><td>Automotive &amp; e-bike</td></tr>
+          {items.map((m) => (
+            <tr>
+              <td><a href={`/manufacturers/${m.id}/`}><strong>{m.name}</strong>{m.chinese ? ` (${m.chinese})` : ''}</a></td>
+              <td>{m.country}</td>
+              <td>{m.chemistry}</td>
+              <td>{m.products}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
-      <p class="muted">This is a starting directory. Each listing is company-level and cross-verified; product-level claims (factory capacity, certifications, CCA values) require the source-linked verification described in the <a href="/verification-criteria/">verification criteria</a>.</p>
 
       <h2>Related</h2>
       <ul>
