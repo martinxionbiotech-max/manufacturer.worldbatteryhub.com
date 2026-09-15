@@ -8,7 +8,7 @@ const SITE = 'https://manufacturer.worldbatteryhub.com';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Manufacturer Verification Criteria | World Battery Hub</title>
-    <meta name="description" content="How World Battery Hub verifies a battery manufacturer listing — company identity, certifications and product data, each checked against public sources." />
+    <meta name="description" content="How World Battery Hub verifies a battery manufacturer listing — company identity, certifications and product data, and the claimed-vs-accredited distinction, each checked against public sources." />
     <link rel="canonical" href={`${SITE}/verification-criteria/`} />
     <style>
       body { font-family: system-ui, sans-serif; margin: 0; color: #1e293b; line-height: 1.6; }
@@ -38,10 +38,27 @@ const SITE = 'https://manufacturer.worldbatteryhub.com';
         <thead><tr><th>Check</th><th>What is looked for</th></tr></thead>
         <tbody>
           <tr><td>Company identity</td><td>Registered name, country, and a traceable public footprint (company register, website, export records)</td></tr>
-          <tr><td>Certifications</td><td>Named standards only — e.g. ISO 9001, ISO 45001, IEC, CE — with the issuing context, never a bare "certified" claim</td></tr>
+          <tr><td>Certifications</td><td>Named standards only — e.g. ISO 9001, IATF 16949, IEC, CE — with the issuing context, never a bare "certified" claim</td></tr>
           <tr><td>Product data</td><td>Model specifications that state their test standard (a CCA value without JIS/EN/SAE/DIN is not recorded)</td></tr>
         </tbody>
       </table>
+
+      <h2>The claimed-vs-accredited distinction</h2>
+      <p>
+        The single most important distinction in this directory is between what a manufacturer <strong>claims</strong>
+        and what is <strong>independently accredited</strong>. A manufacturer may advertise "ISO 9001" or "CE" without
+        the certification being verifiable, and a testing capability may be advertised without the corresponding
+        accreditation (e.g. ISO/IEC 17025). This directory records a certification as <em>verified</em> only when it
+        can be traced to a named standard and issuing context; otherwise it is marked <strong>unverified</strong>.
+      </p>
+
+      <h2>The verification checklist</h2>
+      <ol>
+        <li><strong>Name and registration</strong> — is the company a real, traceable legal entity?</li>
+        <li><strong>Certification</strong> — is each claimed standard named and traceable to an issuer?</li>
+        <li><strong>Product spec</strong> — does each figure state its test standard (CCA basis, capacity rate)?</li>
+        <li><strong>Factory / capacity claims</strong> — is there a source, or is it marketing language?</li>
+      </ol>
 
       <h2>What this directory is not</h2>
       <ul>
@@ -55,9 +72,12 @@ const SITE = 'https://manufacturer.worldbatteryhub.com';
       <h2>The Author's Take</h2>
       <div class="box">
         <p><strong>Position:</strong> A battery manufacturer directory earns trust exactly by admitting what it could
-        not verify — the "certified" label is only as good as the check behind it.</p>
-        <p><strong>Reasoning:</strong> The battery trade is full of bare "ISO/CE" badges. The useful, honest signal is a
-        named standard plus a source, and a directory that distinguishes verified from unverified is the only kind worth reading.</p>
+        not verify — and the whole game is the claimed-vs-accredited line, because "certified" is only as good as the
+        check behind it.</p>
+        <p><strong>Reasoning:</strong> The battery trade is full of bare "ISO/CE" badges and unaccredited test claims. The
+        useful, honest signal is a named standard plus a source, and a directory that distinguishes verified from
+        unverified is the only kind worth reading — for a buyer, that one distinction is worth more than a hundred
+        marketing pages.</p>
         <p class="muted"><em>This is the author's editorial view, not a purchasing guarantee.</em></p>
       </div>
 
