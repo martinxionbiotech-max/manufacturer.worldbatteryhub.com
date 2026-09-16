@@ -339,6 +339,58 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here"
       }
+    },
+    {
+      "id": "farasis",
+      "name": "Farasis Energy",
+      "chinese": "孚能科技",
+      "country": "China",
+      "hq": "Ganzhou, Jiangxi",
+      "chemistry": "Lithium (NMC/LFP)",
+      "products": "EV cells & packs",
+      "verification": {
+        "company": "Verified (listed, public footprint)",
+        "certifications": "Claimed — not independently accredited here"
+      }
+    },
+    {
+      "id": "rept",
+      "name": "REPT Battero",
+      "chinese": "瑞浦兰钧",
+      "country": "China",
+      "hq": "Wenzhou, Zhejiang",
+      "chemistry": "Lithium (LFP)",
+      "products": "EV & storage cells",
+      "verification": {
+        "company": "Verified (listed, public footprint)",
+        "certifications": "Claimed — not independently accredited here"
+      }
+    },
+    {
+      "id": "acc",
+      "name": "ACC (Automotive Cells Co)",
+      "chinese": "ACC（欧洲汽车电池）",
+      "country": "France / Germany / Italy",
+      "hq": "Bruges, France",
+      "chemistry": "Lithium (NMC)",
+      "products": "EV cells & packs",
+      "verification": {
+        "company": "Verified (Stellantis/Mercedes/TotalEnergies JV)",
+        "certifications": "Claimed — not independently accredited here"
+      }
+    },
+    {
+      "id": "powerco",
+      "name": "PowerCo (VW Group)",
+      "chinese": "大众 PowerCo",
+      "country": "Germany",
+      "hq": "Salzgitter",
+      "chemistry": "Lithium",
+      "products": "EV cells",
+      "verification": {
+        "company": "Verified (Volkswagen Group battery arm)",
+        "certifications": "Claimed — not independently accredited here"
+      }
     }
   ]
 }
