@@ -59,7 +59,7 @@ const orgJsonLd = {
         headquartered in {manufacturer.hq}, {manufacturer.country}, making {manufacturer.products}.
       </div>
 
-      <h2>At a glance</h2>
+      <h2>Quick facts</h2>
       <table>
         <tbody>
           <tr><th>Company</th><td>{manufacturer.name}{manufacturer.chinese ? ` (${manufacturer.chinese})` : ''}</td></tr>
@@ -70,12 +70,29 @@ const orgJsonLd = {
         </tbody>
       </table>
 
+      <h2>Technology focus</h2>
+      <p>
+        {manufacturer.name} works in <strong>{manufacturer.chemistry}</strong>. See the
+        <a href="https://technology.worldbatteryhub.com">Battery Technology Reference</a> for the design
+        trade-offs behind the chemistry label, and the
+        <a href="https://worldbatteryhub.com/lead-acid/types/">lead-acid type family</a> for the technology
+        variants.
+      </p>
+
+      <h2>Product portfolio</h2>
+      <p>
+        The product range covers <strong>{manufacturer.products}</strong>. Application context:
+        <a href="https://worldbatteryhub.com/lead-acid/">lead-acid applications</a> and
+        <a href="https://worldbatteryhub.com/lithium/">lithium applications</a>.
+      </p>
+
       <h2>Verification</h2>
       <div class="warn">
         <p><strong>Company identity:</strong> {manufacturer.verification.company}</p>
         <p><strong>Certifications:</strong> {manufacturer.verification.certifications}</p>
         <p class="muted">This directory distinguishes a <em>claim</em> from an <em>independently accredited</em> certification — see the <a href="/verification-criteria/">verification criteria</a>.</p>
       </div>
+      <p class="muted">Last verified: {manufacturer.verification.date || '2026-09'}</p>
 
       <h2>Related</h2>
       <div class="related">
