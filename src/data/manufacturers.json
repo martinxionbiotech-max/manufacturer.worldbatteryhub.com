@@ -449,6 +449,258 @@
         "certifications": "Automotive OEM supply claimed per company reporting",
         "date": "2026-09"
       }
+    },
+    {
+      "id": "northvolt",
+      "name": "Northvolt",
+      "chinese": "北伏",
+      "country": "Sweden",
+      "hq": "Stockholm",
+      "chemistry": "Lithium (NMC)",
+      "products": "EV cells (Ett gigafactory)",
+      "verification": {
+        "company": "Was Europe's flagship cell venture; entered bankruptcy proceedings in 2025",
+        "certifications": "Automotive offtake agreements claimed per company reporting (pre-bankruptcy)",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "lishen",
+      "name": "Lishen",
+      "chinese": "力神电池",
+      "country": "China",
+      "hq": "Tianjin",
+      "chemistry": "Lithium (NMC / LFP)",
+      "products": "EV, power tool and storage cells",
+      "verification": {
+        "company": "State-linked cell maker, long automotive supply history",
+        "certifications": "Automotive supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "cbak",
+      "name": "CBAK Energy",
+      "chinese": "比克电池",
+      "country": "China",
+      "hq": "Shenzhen / Dalian",
+      "chemistry": "Lithium (NMC / LFP)",
+      "products": "Cylindrical cells, EV and tool batteries",
+      "verification": {
+        "company": "Publicly traded (NASDAQ: CBAT)",
+        "certifications": "Automotive and tool supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "coslight",
+      "name": "Coslight",
+      "chinese": "光宇国际",
+      "country": "China",
+      "hq": "Harbin",
+      "chemistry": "Lead-acid + Lithium",
+      "products": "Telecom and industrial batteries",
+      "verification": {
+        "company": "Long-standing telecom battery supplier",
+        "certifications": "Telecom supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "shoto",
+      "name": "Shoto (Shuangdeng)",
+      "chinese": "双登集团",
+      "country": "China",
+      "hq": "Jiangsu",
+      "chemistry": "Lead-acid + Lithium",
+      "products": "Telecom, data-centre and storage batteries",
+      "verification": {
+        "company": "Major telecom standby supplier",
+        "certifications": "Telecom tender participation per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "east-penn",
+      "name": "East Penn Manufacturing",
+      "chinese": "东宾夕法尼亚制造",
+      "country": "United States",
+      "hq": "Lyon Station, Pennsylvania",
+      "chemistry": "Lead-acid (flooded / AGM)",
+      "products": "Automotive (Deka), industrial and reserve power batteries",
+      "verification": {
+        "company": "Privately held; one of the largest US lead-acid makers",
+        "certifications": "OEM supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "trojan",
+      "name": "Trojan Battery",
+      "chinese": "特洛伊电池",
+      "country": "United States",
+      "hq": "Santa Fe Springs, California",
+      "chemistry": "Lead-acid (flooded / AGM deep-cycle)",
+      "products": "Deep-cycle golf, floor-machine and renewable batteries",
+      "verification": {
+        "company": "Deep-cycle specialist, C&D Technologies group",
+        "certifications": "Golf and RE supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "cnd-technologies",
+      "name": "C&D Technologies",
+      "chinese": "C&D技术",
+      "country": "United States",
+      "hq": "Horsham, Pennsylvania",
+      "chemistry": "Lead-acid (VRLA) + Lithium",
+      "products": "Standby power for telecom and utilities",
+      "verification": {
+        "company": "Standby-power specialist; owner of Trojan Battery",
+        "certifications": "Utility and telecom supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "fiamm",
+      "name": "FIAMM Energy Technology",
+      "chinese": "菲亚姆",
+      "country": "Italy",
+      "hq": "Montecchio Maggiore",
+      "chemistry": "Lead-acid (AGM / gel) + Lithium",
+      "products": "Automotive, motive power and standby batteries",
+      "verification": {
+        "company": "European automotive and industrial battery maker",
+        "certifications": "OEM supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "banner",
+      "name": "Banner Batteries",
+      "chinese": "班纳电池",
+      "country": "Austria",
+      "hq": "Linz",
+      "chemistry": "Lead-acid (flooded / EFB / AGM)",
+      "products": "Automotive starter batteries",
+      "verification": {
+        "company": "Central European starter-battery maker",
+        "certifications": "OEM supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "mutlu",
+      "name": "Mutlu Aku",
+      "chinese": "穆特卢",
+      "country": "Turkey",
+      "hq": "Istanbul",
+      "chemistry": "Lead-acid (flooded / EFB / AGM)",
+      "products": "Automotive starter batteries",
+      "verification": {
+        "company": "Turkey's largest battery maker, export-oriented",
+        "certifications": "OEM supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "atlasbx",
+      "name": "AtlasBX (Hankook & Company)",
+      "chinese": "阿特拉斯BX",
+      "country": "South Korea",
+      "hq": "Daejeon",
+      "chemistry": "Lead-acid (flooded / AGM)",
+      "products": "Automotive starter batteries (Hankook brand)",
+      "verification": {
+        "company": "Korean lead-acid major with US plants",
+        "certifications": "OEM and aftermarket supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "furukawa",
+      "name": "Furukawa Battery",
+      "chinese": "古河电池",
+      "country": "Japan",
+      "hq": "Yokohama",
+      "chemistry": "Lead-acid + Lithium",
+      "products": "Automotive (UltraBattery lineage), industrial and aerospace batteries",
+      "verification": {
+        "company": "Long-standing Japanese battery maker",
+        "certifications": "OEM supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "toshiba",
+      "name": "Toshiba (SCiB)",
+      "chinese": "东芝",
+      "country": "Japan",
+      "hq": "Tokyo",
+      "chemistry": "Lithium (LTO — lithium titanate)",
+      "products": "SCiB fast-charge, long-life cells",
+      "verification": {
+        "company": "SCiB LTO cells for buses, trains and infrastructure",
+        "certifications": "Safety and cycle claims per company datasheets",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "murata",
+      "name": "Murata Manufacturing",
+      "chinese": "村田制作所",
+      "country": "Japan",
+      "hq": "Kyoto",
+      "chemistry": "Lithium (consumer cells)",
+      "products": "Cylindrical cells (Sony battery heritage)",
+      "verification": {
+        "company": "Acquired Sony's battery business in 2017",
+        "certifications": "Consumer-grade supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "microvast",
+      "name": "Microvast",
+      "chinese": "微宏动力",
+      "country": "United States / China",
+      "hq": "Stafford, Texas",
+      "chemistry": "Lithium (NMC / LFP)",
+      "products": "Commercial-vehicle and bus batteries",
+      "verification": {
+        "company": "Publicly traded (NASDAQ: MVST)",
+        "certifications": "Bus and CV supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "hithium",
+      "name": "Hithium",
+      "chinese": "海辰储能",
+      "country": "China",
+      "hq": "Xiamen",
+      "chemistry": "Lithium (LFP)",
+      "products": "Stationary storage cells and systems",
+      "verification": {
+        "company": "Fast-growing storage cell specialist",
+        "certifications": "Storage project supply claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "ganfeng",
+      "name": "Ganfeng Lithium",
+      "chinese": "赣锋锂业",
+      "country": "China",
+      "hq": "Xinyu, Jiangxi",
+      "chemistry": "Lithium (LFP / NMC) + lithium materials",
+      "products": "Lithium chemicals and battery cells",
+      "verification": {
+        "company": "Publicly traded (HKEX/CN); lithium supplier turned cell maker",
+        "certifications": "Supply chain position per company reporting",
+        "date": "2026-09"
+      }
     }
   ]
 }
