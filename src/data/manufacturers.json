@@ -421,6 +421,34 @@
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
       }
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "chinese": "特斯拉",
+      "country": "United States",
+      "hq": "Austin, Texas",
+      "chemistry": "Lithium (NCA / NMC / LFP)",
+      "products": "EV cells (4680) and battery packs",
+      "verification": {
+        "company": "Publicly traded (NASDAQ: TSLA); gigafactories in Nevada and Texas",
+        "certifications": "Automotive-grade cell production claimed per company reporting",
+        "date": "2026-09"
+      }
+    },
+    {
+      "id": "sk-on",
+      "name": "SK On",
+      "chinese": "SK新能源",
+      "country": "South Korea",
+      "hq": "Seoul",
+      "chemistry": "Lithium (NMC / LFP)",
+      "products": "EV cells",
+      "verification": {
+        "company": "SK Group subsidiary; US plants in Georgia and Kentucky",
+        "certifications": "Automotive OEM supply claimed per company reporting",
+        "date": "2026-09"
+      }
     }
   ]
 }
