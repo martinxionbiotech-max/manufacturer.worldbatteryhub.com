@@ -22,6 +22,19 @@ const VERIFICATION_LABELS = {
 const verificationLevel = manufacturer.verification_level || 'claimed';
 const verificationLabel = VERIFICATION_LABELS[verificationLevel] || verificationLevel;
 
+// Four-dimension verification levels (audit #3 P0-3): Level 0-4 per dimension
+const LEVEL_LABELS = {
+  unverified: 'Unverified (Level 0)',
+  claimed: 'Claimed (Level 0)',
+  publicly_identified: 'Publicly identified (Level 1)',
+  cross_verified: 'Cross-verified (Level 2)',
+  first_party: 'First-party verified (Level 3)',
+  certificate_backed: 'Certificate-backed (Level 3)',
+  independently_verified: 'Independently verified (Level 4)',
+};
+const lv = manufacturer.verification_levels || {};
+const dimLabel = (k) => LEVEL_LABELS[lv[k]] || 'Publicly identified (Level 1)';
+
 const orgJsonLd = {
   '@type': 'Organization',
   '@id': `${url}#org`,
@@ -98,10 +111,17 @@ const orgJsonLd = {
 
       <h2>Verification</h2>
       <div class="warn">
-        <p><strong>Verification level:</strong> {verificationLabel}</p>
-        <p><strong>Company identity:</strong> {manufacturer.verification.company}</p>
-        <p><strong>Certifications:</strong> {manufacturer.verification.certifications}</p>
-        <p class="muted">This directory distinguishes a <em>claim</em> from a <em>certificate-backed</em> or <em>independently verified</em> status — see the <a href="/verification-criteria/">verification criteria</a>.</p>
+        <p><strong>Overall level:</strong> {verificationLabel}</p>
+        <table>
+          <tbody>
+            <tr><th>Company identity</th><td>{dimLabel('identity')}</td></tr>
+            <tr><th>Manufacturing capability</th><td>{dimLabel('capability')}</td></tr>
+            <tr><th>Product portfolio</th><td>{dimLabel('products')}</td></tr>
+            <tr><th>Certifications</th><td>{dimLabel('certifications')}</td></tr>
+          </tbody>
+        </table>
+        <p><strong>Notes:</strong> {manufacturer.verification.company} · {manufacturer.verification.certifications}</p>
+        <p class="muted">Each dimension is rated independently — a company may be publicly identified while its certifications remain claims. See the <a href="/verification-criteria/">verification criteria</a>.</p>
       </div>
       <p class="muted">Last verified: {manufacturer.verification.date || '2026-09'}</p>
 

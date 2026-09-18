@@ -1,756 +1,1056 @@
 {
-  "generated": "2026-09-15",
-  "note": "Manufacturer entity database. Each manufacturer is an Organization entity. Company-level facts are cross-verified against public sources; certifications are recorded as 'claimed' unless independently accredited — see the verification criteria.",
-  "manufacturers": [
-    {
-      "id": "catl",
-      "name": "CATL",
-      "chinese": "宁德时代",
-      "country": "China",
-      "hq": "Ningde, Fujian",
-      "chemistry": "Lithium (LFP/NMC)",
-      "products": "EV cells & packs, energy storage",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "byd",
-      "name": "BYD",
-      "chinese": "比亚迪",
-      "country": "China",
-      "hq": "Shenzhen, Guangdong",
-      "chemistry": "Lithium (LFP)",
-      "products": "EV Blade battery, energy storage",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "lg-energy-solution",
-      "name": "LG Energy Solution",
-      "chinese": null,
-      "country": "South Korea",
-      "hq": "Seoul",
-      "chemistry": "Lithium (NMC/LFP)",
-      "products": "EV cells & packs",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "panasonic",
-      "name": "Panasonic",
-      "chinese": null,
-      "country": "Japan",
-      "hq": "Osaka",
-      "chemistry": "Lithium (NMC)",
-      "products": "EV cells (cylindrical)",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "samsung-sdi",
-      "name": "Samsung SDI",
-      "chinese": null,
-      "country": "South Korea",
-      "hq": "Yongin",
-      "chemistry": "Lithium (NMC)",
-      "products": "EV cells & packs",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "eve-energy",
-      "name": "EVE Energy",
-      "chinese": "亿纬锂能",
-      "country": "China",
-      "hq": "Huizhou, Guangdong",
-      "chemistry": "Lithium (LFP)",
-      "products": "Cells, power & storage",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "calb",
-      "name": "CALB",
-      "chinese": "中创新航",
-      "country": "China",
-      "hq": "Changzhou, Jiangsu",
-      "chemistry": "Lithium (LFP/NMC)",
-      "products": "EV cells & packs",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "clarios",
-      "name": "Clarios",
-      "chinese": null,
-      "country": "USA",
-      "hq": "Milwaukee, Wisconsin",
-      "chemistry": "Lead-acid (AGM/EFB)",
-      "products": "Automotive SLI",
-      "verification": {
-        "company": "Verified (public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "exide",
-      "name": "Exide Technologies",
-      "chinese": null,
-      "country": "USA",
-      "hq": "Milton, Georgia",
-      "chemistry": "Lead-acid",
-      "products": "Automotive & industrial",
-      "verification": {
-        "company": "Verified (public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "varta",
-      "name": "Varta",
-      "chinese": null,
-      "country": "Germany",
-      "hq": "Ellwangen",
-      "chemistry": "Lead-acid",
-      "products": "Automotive SLI/AGM/EFB",
-      "verification": {
-        "company": "Verified (public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "enersys",
-      "name": "EnerSys",
-      "chinese": null,
-      "country": "USA",
-      "hq": "Reading, Pennsylvania",
-      "chemistry": "Lead-acid & lithium",
-      "products": "Industrial, motive power",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "gs-yuasa",
-      "name": "GS Yuasa",
-      "chinese": null,
-      "country": "Japan",
-      "hq": "Kyoto",
-      "chemistry": "Lead-acid & lithium",
-      "products": "Automotive & industrial",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "camel",
-      "name": "Camel Group",
-      "chinese": "骆驼集团",
-      "country": "China",
-      "hq": "Xiangyang, Hubei",
-      "chemistry": "Lead-acid",
-      "products": "Automotive SLI/AGM",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "fengfan",
-      "name": "Fengfan",
-      "chinese": "风帆",
-      "country": "China",
-      "hq": "Baoding, Hebei",
-      "chemistry": "Lead-acid",
-      "products": "Automotive SLI",
-      "verification": {
-        "company": "Verified (public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "tianneng",
-      "name": "Tianneng Power",
-      "chinese": "天能动力",
-      "country": "China",
-      "hq": "Changxing, Zhejiang",
-      "chemistry": "Lead-acid",
-      "products": "Automotive & e-bike",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "chaowei",
-      "name": "Chaowei Power",
-      "chinese": "超威动力",
-      "country": "China",
-      "hq": "Changxing, Zhejiang",
-      "chemistry": "Lead-acid",
-      "products": "Automotive & e-bike",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "gotion",
-      "name": "Gotion High-Tech",
-      "chinese": "国轩高科",
-      "country": "China",
-      "hq": "Hefei, Anhui",
-      "chemistry": "Lithium (LFP)",
-      "products": "EV cells & packs, storage",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "svolt",
-      "name": "SVOLT",
-      "chinese": "蜂巢能源",
-      "country": "China",
-      "hq": "Changzhou, Jiangsu",
-      "chemistry": "Lithium (LFP/NMC)",
-      "products": "EV cells & packs",
-      "verification": {
-        "company": "Verified (public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "sunwoda",
-      "name": "Sunwoda",
-      "chinese": "欣旺达",
-      "country": "China",
-      "hq": "Shenzhen, Guangdong",
-      "chemistry": "Lithium",
-      "products": "Consumer & EV cells",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "leoch",
-      "name": "Leoch",
-      "chinese": "理士国际",
-      "country": "China",
-      "hq": "Shenzhen, Guangdong",
-      "chemistry": "Lead-acid & lithium",
-      "products": "Automotive & industrial",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "narada",
-      "name": "Narada Power",
-      "chinese": "南都电源",
-      "country": "China",
-      "hq": "Hangzhou, Zhejiang",
-      "chemistry": "Lead-acid & lithium",
-      "products": "Industrial & storage",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "sacred-sun",
-      "name": "Sacred Sun",
-      "chinese": "圣阳",
-      "country": "China",
-      "hq": "Qufu, Shandong",
-      "chemistry": "Lead-acid",
-      "products": "Industrial & telecom",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "aesc",
-      "name": "AESC",
-      "chinese": "远景动力",
-      "country": "China / Japan",
-      "hq": "Wuxi, Jiangsu",
-      "chemistry": "Lithium (NMC)",
-      "products": "EV cells & packs",
-      "verification": {
-        "company": "Verified (public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "saft",
-      "name": "Saft",
-      "chinese": "帅福得",
-      "country": "France",
-      "hq": "Levallois-Perret",
-      "chemistry": "Lithium & nickel & primary",
-      "products": "Industrial, aerospace, defense",
-      "verification": {
-        "company": "Verified (TotalEnergies subsidiary)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "amara-raja",
-      "name": "Amara Raja",
-      "chinese": "阿玛拉·拉贾",
-      "country": "India",
-      "hq": "Tirupati, Andhra Pradesh",
-      "chemistry": "Lead-acid & lithium",
-      "products": "Automotive & industrial",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "exide-industries",
-      "name": "Exide Industries",
-      "chinese": "Exide 工业",
-      "country": "India",
-      "hq": "Kolkata, West Bengal",
-      "chemistry": "Lead-acid",
-      "products": "Automotive & industrial",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "farasis",
-      "name": "Farasis Energy",
-      "chinese": "孚能科技",
-      "country": "China",
-      "hq": "Ganzhou, Jiangxi",
-      "chemistry": "Lithium (NMC/LFP)",
-      "products": "EV cells & packs",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "rept",
-      "name": "REPT Battero",
-      "chinese": "瑞浦兰钧",
-      "country": "China",
-      "hq": "Wenzhou, Zhejiang",
-      "chemistry": "Lithium (LFP)",
-      "products": "EV & storage cells",
-      "verification": {
-        "company": "Verified (listed, public footprint)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "acc",
-      "name": "ACC (Automotive Cells Co)",
-      "chinese": "ACC（欧洲汽车电池）",
-      "country": "France / Germany / Italy",
-      "hq": "Bruges, France",
-      "chemistry": "Lithium (NMC)",
-      "products": "EV cells & packs",
-      "verification": {
-        "company": "Verified (Stellantis/Mercedes/TotalEnergies JV)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "powerco",
-      "name": "PowerCo (VW Group)",
-      "chinese": "大众 PowerCo",
-      "country": "Germany",
-      "hq": "Salzgitter",
-      "chemistry": "Lithium",
-      "products": "EV cells",
-      "verification": {
-        "company": "Verified (Volkswagen Group battery arm)",
-        "certifications": "Claimed — not independently accredited here",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "tesla",
-      "name": "Tesla",
-      "chinese": "特斯拉",
-      "country": "United States",
-      "hq": "Austin, Texas",
-      "chemistry": "Lithium (NCA / NMC / LFP)",
-      "products": "EV cells (4680) and battery packs",
-      "verification": {
-        "company": "Publicly traded (NASDAQ: TSLA); gigafactories in Nevada and Texas",
-        "certifications": "Automotive-grade cell production claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "sk-on",
-      "name": "SK On",
-      "chinese": "SK新能源",
-      "country": "South Korea",
-      "hq": "Seoul",
-      "chemistry": "Lithium (NMC / LFP)",
-      "products": "EV cells",
-      "verification": {
-        "company": "SK Group subsidiary; US plants in Georgia and Kentucky",
-        "certifications": "Automotive OEM supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "northvolt",
-      "name": "Northvolt",
-      "chinese": "北伏",
-      "country": "Sweden",
-      "hq": "Stockholm",
-      "chemistry": "Lithium (NMC)",
-      "products": "EV cells (Ett gigafactory)",
-      "verification": {
-        "company": "Was Europe's flagship cell venture; entered bankruptcy proceedings in 2025",
-        "certifications": "Automotive offtake agreements claimed per company reporting (pre-bankruptcy)",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "lishen",
-      "name": "Lishen",
-      "chinese": "力神电池",
-      "country": "China",
-      "hq": "Tianjin",
-      "chemistry": "Lithium (NMC / LFP)",
-      "products": "EV, power tool and storage cells",
-      "verification": {
-        "company": "State-linked cell maker, long automotive supply history",
-        "certifications": "Automotive supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "cbak",
-      "name": "CBAK Energy",
-      "chinese": "比克电池",
-      "country": "China",
-      "hq": "Shenzhen / Dalian",
-      "chemistry": "Lithium (NMC / LFP)",
-      "products": "Cylindrical cells, EV and tool batteries",
-      "verification": {
-        "company": "Publicly traded (NASDAQ: CBAT)",
-        "certifications": "Automotive and tool supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "coslight",
-      "name": "Coslight",
-      "chinese": "光宇国际",
-      "country": "China",
-      "hq": "Harbin",
-      "chemistry": "Lead-acid + Lithium",
-      "products": "Telecom and industrial batteries",
-      "verification": {
-        "company": "Long-standing telecom battery supplier",
-        "certifications": "Telecom supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "shoto",
-      "name": "Shoto (Shuangdeng)",
-      "chinese": "双登集团",
-      "country": "China",
-      "hq": "Jiangsu",
-      "chemistry": "Lead-acid + Lithium",
-      "products": "Telecom, data-centre and storage batteries",
-      "verification": {
-        "company": "Major telecom standby supplier",
-        "certifications": "Telecom tender participation per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "east-penn",
-      "name": "East Penn Manufacturing",
-      "chinese": "东宾夕法尼亚制造",
-      "country": "United States",
-      "hq": "Lyon Station, Pennsylvania",
-      "chemistry": "Lead-acid (flooded / AGM)",
-      "products": "Automotive (Deka), industrial and reserve power batteries",
-      "verification": {
-        "company": "Privately held; one of the largest US lead-acid makers",
-        "certifications": "OEM supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "trojan",
-      "name": "Trojan Battery",
-      "chinese": "特洛伊电池",
-      "country": "United States",
-      "hq": "Santa Fe Springs, California",
-      "chemistry": "Lead-acid (flooded / AGM deep-cycle)",
-      "products": "Deep-cycle golf, floor-machine and renewable batteries",
-      "verification": {
-        "company": "Deep-cycle specialist, C&D Technologies group",
-        "certifications": "Golf and RE supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "cnd-technologies",
-      "name": "C&D Technologies",
-      "chinese": "C&D技术",
-      "country": "United States",
-      "hq": "Horsham, Pennsylvania",
-      "chemistry": "Lead-acid (VRLA) + Lithium",
-      "products": "Standby power for telecom and utilities",
-      "verification": {
-        "company": "Standby-power specialist; owner of Trojan Battery",
-        "certifications": "Utility and telecom supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "fiamm",
-      "name": "FIAMM Energy Technology",
-      "chinese": "菲亚姆",
-      "country": "Italy",
-      "hq": "Montecchio Maggiore",
-      "chemistry": "Lead-acid (AGM / gel) + Lithium",
-      "products": "Automotive, motive power and standby batteries",
-      "verification": {
-        "company": "European automotive and industrial battery maker",
-        "certifications": "OEM supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "banner",
-      "name": "Banner Batteries",
-      "chinese": "班纳电池",
-      "country": "Austria",
-      "hq": "Linz",
-      "chemistry": "Lead-acid (flooded / EFB / AGM)",
-      "products": "Automotive starter batteries",
-      "verification": {
-        "company": "Central European starter-battery maker",
-        "certifications": "OEM supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "mutlu",
-      "name": "Mutlu Aku",
-      "chinese": "穆特卢",
-      "country": "Turkey",
-      "hq": "Istanbul",
-      "chemistry": "Lead-acid (flooded / EFB / AGM)",
-      "products": "Automotive starter batteries",
-      "verification": {
-        "company": "Turkey's largest battery maker, export-oriented",
-        "certifications": "OEM supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "atlasbx",
-      "name": "AtlasBX (Hankook & Company)",
-      "chinese": "阿特拉斯BX",
-      "country": "South Korea",
-      "hq": "Daejeon",
-      "chemistry": "Lead-acid (flooded / AGM)",
-      "products": "Automotive starter batteries (Hankook brand)",
-      "verification": {
-        "company": "Korean lead-acid major with US plants",
-        "certifications": "OEM and aftermarket supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "furukawa",
-      "name": "Furukawa Battery",
-      "chinese": "古河电池",
-      "country": "Japan",
-      "hq": "Yokohama",
-      "chemistry": "Lead-acid + Lithium",
-      "products": "Automotive (UltraBattery lineage), industrial and aerospace batteries",
-      "verification": {
-        "company": "Long-standing Japanese battery maker",
-        "certifications": "OEM supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "toshiba",
-      "name": "Toshiba (SCiB)",
-      "chinese": "东芝",
-      "country": "Japan",
-      "hq": "Tokyo",
-      "chemistry": "Lithium (LTO — lithium titanate)",
-      "products": "SCiB fast-charge, long-life cells",
-      "verification": {
-        "company": "SCiB LTO cells for buses, trains and infrastructure",
-        "certifications": "Safety and cycle claims per company datasheets",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "murata",
-      "name": "Murata Manufacturing",
-      "chinese": "村田制作所",
-      "country": "Japan",
-      "hq": "Kyoto",
-      "chemistry": "Lithium (consumer cells)",
-      "products": "Cylindrical cells (Sony battery heritage)",
-      "verification": {
-        "company": "Acquired Sony's battery business in 2017",
-        "certifications": "Consumer-grade supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "microvast",
-      "name": "Microvast",
-      "chinese": "微宏动力",
-      "country": "United States / China",
-      "hq": "Stafford, Texas",
-      "chemistry": "Lithium (NMC / LFP)",
-      "products": "Commercial-vehicle and bus batteries",
-      "verification": {
-        "company": "Publicly traded (NASDAQ: MVST)",
-        "certifications": "Bus and CV supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "hithium",
-      "name": "Hithium",
-      "chinese": "海辰储能",
-      "country": "China",
-      "hq": "Xiamen",
-      "chemistry": "Lithium (LFP)",
-      "products": "Stationary storage cells and systems",
-      "verification": {
-        "company": "Fast-growing storage cell specialist",
-        "certifications": "Storage project supply claimed per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    },
-    {
-      "id": "ganfeng",
-      "name": "Ganfeng Lithium",
-      "chinese": "赣锋锂业",
-      "country": "China",
-      "hq": "Xinyu, Jiangxi",
-      "chemistry": "Lithium (LFP / NMC) + lithium materials",
-      "products": "Lithium chemicals and battery cells",
-      "verification": {
-        "company": "Publicly traded (HKEX/CN); lithium supplier turned cell maker",
-        "certifications": "Supply chain position per company reporting",
-        "date": "2026-09"
-      },
-      "verification_level": "claimed"
-    }
-  ]
+ "generated": "2026-09-15",
+ "note": "Manufacturer entity database. Each manufacturer is an Organization entity. Company-level facts are cross-verified against public sources; certifications are recorded as 'claimed' unless independently accredited — see the verification criteria.",
+ "manufacturers": [
+  {
+   "id": "catl",
+   "name": "CATL",
+   "chinese": "宁德时代",
+   "country": "China",
+   "hq": "Ningde, Fujian",
+   "chemistry": "Lithium (LFP/NMC)",
+   "products": "EV cells & packs, energy storage",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "byd",
+   "name": "BYD",
+   "chinese": "比亚迪",
+   "country": "China",
+   "hq": "Shenzhen, Guangdong",
+   "chemistry": "Lithium (LFP)",
+   "products": "EV Blade battery, energy storage",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "lg-energy-solution",
+   "name": "LG Energy Solution",
+   "chinese": null,
+   "country": "South Korea",
+   "hq": "Seoul",
+   "chemistry": "Lithium (NMC/LFP)",
+   "products": "EV cells & packs",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "panasonic",
+   "name": "Panasonic",
+   "chinese": null,
+   "country": "Japan",
+   "hq": "Osaka",
+   "chemistry": "Lithium (NMC)",
+   "products": "EV cells (cylindrical)",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "samsung-sdi",
+   "name": "Samsung SDI",
+   "chinese": null,
+   "country": "South Korea",
+   "hq": "Yongin",
+   "chemistry": "Lithium (NMC)",
+   "products": "EV cells & packs",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "eve-energy",
+   "name": "EVE Energy",
+   "chinese": "亿纬锂能",
+   "country": "China",
+   "hq": "Huizhou, Guangdong",
+   "chemistry": "Lithium (LFP)",
+   "products": "Cells, power & storage",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "calb",
+   "name": "CALB",
+   "chinese": "中创新航",
+   "country": "China",
+   "hq": "Changzhou, Jiangsu",
+   "chemistry": "Lithium (LFP/NMC)",
+   "products": "EV cells & packs",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "clarios",
+   "name": "Clarios",
+   "chinese": null,
+   "country": "USA",
+   "hq": "Milwaukee, Wisconsin",
+   "chemistry": "Lead-acid (AGM/EFB)",
+   "products": "Automotive SLI",
+   "verification": {
+    "company": "Verified (public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "exide",
+   "name": "Exide Technologies",
+   "chinese": null,
+   "country": "USA",
+   "hq": "Milton, Georgia",
+   "chemistry": "Lead-acid",
+   "products": "Automotive & industrial",
+   "verification": {
+    "company": "Verified (public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "varta",
+   "name": "Varta",
+   "chinese": null,
+   "country": "Germany",
+   "hq": "Ellwangen",
+   "chemistry": "Lead-acid",
+   "products": "Automotive SLI/AGM/EFB",
+   "verification": {
+    "company": "Verified (public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "enersys",
+   "name": "EnerSys",
+   "chinese": null,
+   "country": "USA",
+   "hq": "Reading, Pennsylvania",
+   "chemistry": "Lead-acid & lithium",
+   "products": "Industrial, motive power",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "gs-yuasa",
+   "name": "GS Yuasa",
+   "chinese": null,
+   "country": "Japan",
+   "hq": "Kyoto",
+   "chemistry": "Lead-acid & lithium",
+   "products": "Automotive & industrial",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "camel",
+   "name": "Camel Group",
+   "chinese": "骆驼集团",
+   "country": "China",
+   "hq": "Xiangyang, Hubei",
+   "chemistry": "Lead-acid",
+   "products": "Automotive SLI/AGM",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "fengfan",
+   "name": "Fengfan",
+   "chinese": "风帆",
+   "country": "China",
+   "hq": "Baoding, Hebei",
+   "chemistry": "Lead-acid",
+   "products": "Automotive SLI",
+   "verification": {
+    "company": "Verified (public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "tianneng",
+   "name": "Tianneng Power",
+   "chinese": "天能动力",
+   "country": "China",
+   "hq": "Changxing, Zhejiang",
+   "chemistry": "Lead-acid",
+   "products": "Automotive & e-bike",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "chaowei",
+   "name": "Chaowei Power",
+   "chinese": "超威动力",
+   "country": "China",
+   "hq": "Changxing, Zhejiang",
+   "chemistry": "Lead-acid",
+   "products": "Automotive & e-bike",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "gotion",
+   "name": "Gotion High-Tech",
+   "chinese": "国轩高科",
+   "country": "China",
+   "hq": "Hefei, Anhui",
+   "chemistry": "Lithium (LFP)",
+   "products": "EV cells & packs, storage",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "svolt",
+   "name": "SVOLT",
+   "chinese": "蜂巢能源",
+   "country": "China",
+   "hq": "Changzhou, Jiangsu",
+   "chemistry": "Lithium (LFP/NMC)",
+   "products": "EV cells & packs",
+   "verification": {
+    "company": "Verified (public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "sunwoda",
+   "name": "Sunwoda",
+   "chinese": "欣旺达",
+   "country": "China",
+   "hq": "Shenzhen, Guangdong",
+   "chemistry": "Lithium",
+   "products": "Consumer & EV cells",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "leoch",
+   "name": "Leoch",
+   "chinese": "理士国际",
+   "country": "China",
+   "hq": "Shenzhen, Guangdong",
+   "chemistry": "Lead-acid & lithium",
+   "products": "Automotive & industrial",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "narada",
+   "name": "Narada Power",
+   "chinese": "南都电源",
+   "country": "China",
+   "hq": "Hangzhou, Zhejiang",
+   "chemistry": "Lead-acid & lithium",
+   "products": "Industrial & storage",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "sacred-sun",
+   "name": "Sacred Sun",
+   "chinese": "圣阳",
+   "country": "China",
+   "hq": "Qufu, Shandong",
+   "chemistry": "Lead-acid",
+   "products": "Industrial & telecom",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "aesc",
+   "name": "AESC",
+   "chinese": "远景动力",
+   "country": "China / Japan",
+   "hq": "Wuxi, Jiangsu",
+   "chemistry": "Lithium (NMC)",
+   "products": "EV cells & packs",
+   "verification": {
+    "company": "Verified (public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "saft",
+   "name": "Saft",
+   "chinese": "帅福得",
+   "country": "France",
+   "hq": "Levallois-Perret",
+   "chemistry": "Lithium & nickel & primary",
+   "products": "Industrial, aerospace, defense",
+   "verification": {
+    "company": "Verified (TotalEnergies subsidiary)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "amara-raja",
+   "name": "Amara Raja",
+   "chinese": "阿玛拉·拉贾",
+   "country": "India",
+   "hq": "Tirupati, Andhra Pradesh",
+   "chemistry": "Lead-acid & lithium",
+   "products": "Automotive & industrial",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "exide-industries",
+   "name": "Exide Industries",
+   "chinese": "Exide 工业",
+   "country": "India",
+   "hq": "Kolkata, West Bengal",
+   "chemistry": "Lead-acid",
+   "products": "Automotive & industrial",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "farasis",
+   "name": "Farasis Energy",
+   "chinese": "孚能科技",
+   "country": "China",
+   "hq": "Ganzhou, Jiangxi",
+   "chemistry": "Lithium (NMC/LFP)",
+   "products": "EV cells & packs",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "rept",
+   "name": "REPT Battero",
+   "chinese": "瑞浦兰钧",
+   "country": "China",
+   "hq": "Wenzhou, Zhejiang",
+   "chemistry": "Lithium (LFP)",
+   "products": "EV & storage cells",
+   "verification": {
+    "company": "Verified (listed, public footprint)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "acc",
+   "name": "ACC (Automotive Cells Co)",
+   "chinese": "ACC（欧洲汽车电池）",
+   "country": "France / Germany / Italy",
+   "hq": "Bruges, France",
+   "chemistry": "Lithium (NMC)",
+   "products": "EV cells & packs",
+   "verification": {
+    "company": "Verified (Stellantis/Mercedes/TotalEnergies JV)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "powerco",
+   "name": "PowerCo (VW Group)",
+   "chinese": "大众 PowerCo",
+   "country": "Germany",
+   "hq": "Salzgitter",
+   "chemistry": "Lithium",
+   "products": "EV cells",
+   "verification": {
+    "company": "Verified (Volkswagen Group battery arm)",
+    "certifications": "Claimed — not independently accredited here",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "certificate_backed"
+   }
+  },
+  {
+   "id": "tesla",
+   "name": "Tesla",
+   "chinese": "特斯拉",
+   "country": "United States",
+   "hq": "Austin, Texas",
+   "chemistry": "Lithium (NCA / NMC / LFP)",
+   "products": "EV cells (4680) and battery packs",
+   "verification": {
+    "company": "Publicly traded (NASDAQ: TSLA); gigafactories in Nevada and Texas",
+    "certifications": "Automotive-grade cell production claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "sk-on",
+   "name": "SK On",
+   "chinese": "SK新能源",
+   "country": "South Korea",
+   "hq": "Seoul",
+   "chemistry": "Lithium (NMC / LFP)",
+   "products": "EV cells",
+   "verification": {
+    "company": "SK Group subsidiary; US plants in Georgia and Kentucky",
+    "certifications": "Automotive OEM supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "northvolt",
+   "name": "Northvolt",
+   "chinese": "北伏",
+   "country": "Sweden",
+   "hq": "Stockholm",
+   "chemistry": "Lithium (NMC)",
+   "products": "EV cells (Ett gigafactory)",
+   "verification": {
+    "company": "Was Europe's flagship cell venture; entered bankruptcy proceedings in 2025",
+    "certifications": "Automotive offtake agreements claimed per company reporting (pre-bankruptcy)",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "lishen",
+   "name": "Lishen",
+   "chinese": "力神电池",
+   "country": "China",
+   "hq": "Tianjin",
+   "chemistry": "Lithium (NMC / LFP)",
+   "products": "EV, power tool and storage cells",
+   "verification": {
+    "company": "State-linked cell maker, long automotive supply history",
+    "certifications": "Automotive supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "cbak",
+   "name": "CBAK Energy",
+   "chinese": "比克电池",
+   "country": "China",
+   "hq": "Shenzhen / Dalian",
+   "chemistry": "Lithium (NMC / LFP)",
+   "products": "Cylindrical cells, EV and tool batteries",
+   "verification": {
+    "company": "Publicly traded (NASDAQ: CBAT)",
+    "certifications": "Automotive and tool supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "coslight",
+   "name": "Coslight",
+   "chinese": "光宇国际",
+   "country": "China",
+   "hq": "Harbin",
+   "chemistry": "Lead-acid + Lithium",
+   "products": "Telecom and industrial batteries",
+   "verification": {
+    "company": "Long-standing telecom battery supplier",
+    "certifications": "Telecom supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "shoto",
+   "name": "Shoto (Shuangdeng)",
+   "chinese": "双登集团",
+   "country": "China",
+   "hq": "Jiangsu",
+   "chemistry": "Lead-acid + Lithium",
+   "products": "Telecom, data-centre and storage batteries",
+   "verification": {
+    "company": "Major telecom standby supplier",
+    "certifications": "Telecom tender participation per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "east-penn",
+   "name": "East Penn Manufacturing",
+   "chinese": "东宾夕法尼亚制造",
+   "country": "United States",
+   "hq": "Lyon Station, Pennsylvania",
+   "chemistry": "Lead-acid (flooded / AGM)",
+   "products": "Automotive (Deka), industrial and reserve power batteries",
+   "verification": {
+    "company": "Privately held; one of the largest US lead-acid makers",
+    "certifications": "OEM supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "trojan",
+   "name": "Trojan Battery",
+   "chinese": "特洛伊电池",
+   "country": "United States",
+   "hq": "Santa Fe Springs, California",
+   "chemistry": "Lead-acid (flooded / AGM deep-cycle)",
+   "products": "Deep-cycle golf, floor-machine and renewable batteries",
+   "verification": {
+    "company": "Deep-cycle specialist, C&D Technologies group",
+    "certifications": "Golf and RE supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "cnd-technologies",
+   "name": "C&D Technologies",
+   "chinese": "C&D技术",
+   "country": "United States",
+   "hq": "Horsham, Pennsylvania",
+   "chemistry": "Lead-acid (VRLA) + Lithium",
+   "products": "Standby power for telecom and utilities",
+   "verification": {
+    "company": "Standby-power specialist; owner of Trojan Battery",
+    "certifications": "Utility and telecom supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "fiamm",
+   "name": "FIAMM Energy Technology",
+   "chinese": "菲亚姆",
+   "country": "Italy",
+   "hq": "Montecchio Maggiore",
+   "chemistry": "Lead-acid (AGM / gel) + Lithium",
+   "products": "Automotive, motive power and standby batteries",
+   "verification": {
+    "company": "European automotive and industrial battery maker",
+    "certifications": "OEM supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "banner",
+   "name": "Banner Batteries",
+   "chinese": "班纳电池",
+   "country": "Austria",
+   "hq": "Linz",
+   "chemistry": "Lead-acid (flooded / EFB / AGM)",
+   "products": "Automotive starter batteries",
+   "verification": {
+    "company": "Central European starter-battery maker",
+    "certifications": "OEM supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "mutlu",
+   "name": "Mutlu Aku",
+   "chinese": "穆特卢",
+   "country": "Turkey",
+   "hq": "Istanbul",
+   "chemistry": "Lead-acid (flooded / EFB / AGM)",
+   "products": "Automotive starter batteries",
+   "verification": {
+    "company": "Turkey's largest battery maker, export-oriented",
+    "certifications": "OEM supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "atlasbx",
+   "name": "AtlasBX (Hankook & Company)",
+   "chinese": "阿特拉斯BX",
+   "country": "South Korea",
+   "hq": "Daejeon",
+   "chemistry": "Lead-acid (flooded / AGM)",
+   "products": "Automotive starter batteries (Hankook brand)",
+   "verification": {
+    "company": "Korean lead-acid major with US plants",
+    "certifications": "OEM and aftermarket supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "furukawa",
+   "name": "Furukawa Battery",
+   "chinese": "古河电池",
+   "country": "Japan",
+   "hq": "Yokohama",
+   "chemistry": "Lead-acid + Lithium",
+   "products": "Automotive (UltraBattery lineage), industrial and aerospace batteries",
+   "verification": {
+    "company": "Long-standing Japanese battery maker",
+    "certifications": "OEM supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "toshiba",
+   "name": "Toshiba (SCiB)",
+   "chinese": "东芝",
+   "country": "Japan",
+   "hq": "Tokyo",
+   "chemistry": "Lithium (LTO — lithium titanate)",
+   "products": "SCiB fast-charge, long-life cells",
+   "verification": {
+    "company": "SCiB LTO cells for buses, trains and infrastructure",
+    "certifications": "Safety and cycle claims per company datasheets",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "murata",
+   "name": "Murata Manufacturing",
+   "chinese": "村田制作所",
+   "country": "Japan",
+   "hq": "Kyoto",
+   "chemistry": "Lithium (consumer cells)",
+   "products": "Cylindrical cells (Sony battery heritage)",
+   "verification": {
+    "company": "Acquired Sony's battery business in 2017",
+    "certifications": "Consumer-grade supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "microvast",
+   "name": "Microvast",
+   "chinese": "微宏动力",
+   "country": "United States / China",
+   "hq": "Stafford, Texas",
+   "chemistry": "Lithium (NMC / LFP)",
+   "products": "Commercial-vehicle and bus batteries",
+   "verification": {
+    "company": "Publicly traded (NASDAQ: MVST)",
+    "certifications": "Bus and CV supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "hithium",
+   "name": "Hithium",
+   "chinese": "海辰储能",
+   "country": "China",
+   "hq": "Xiamen",
+   "chemistry": "Lithium (LFP)",
+   "products": "Stationary storage cells and systems",
+   "verification": {
+    "company": "Fast-growing storage cell specialist",
+    "certifications": "Storage project supply claimed per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  },
+  {
+   "id": "ganfeng",
+   "name": "Ganfeng Lithium",
+   "chinese": "赣锋锂业",
+   "country": "China",
+   "hq": "Xinyu, Jiangxi",
+   "chemistry": "Lithium (LFP / NMC) + lithium materials",
+   "products": "Lithium chemicals and battery cells",
+   "verification": {
+    "company": "Publicly traded (HKEX/CN); lithium supplier turned cell maker",
+    "certifications": "Supply chain position per company reporting",
+    "date": "2026-09"
+   },
+   "verification_level": "claimed",
+   "verification_levels": {
+    "identity": "publicly_identified",
+    "capability": "publicly_identified",
+    "products": "first_party",
+    "certifications": "claimed"
+   }
+  }
+ ]
 }
