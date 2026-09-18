@@ -3,6 +3,13 @@ import manufacturers from '../data/manufacturers.json';
 
 const SITE = 'https://manufacturer.worldbatteryhub.com';
 const items = manufacturers.manufacturers;
+
+const VERIFICATION_LABELS = {
+  claimed: 'Claimed',
+  'certificate-backed': 'Certificate-backed',
+  'independently-verified': 'Independently verified',
+};
+const levelLabel = (m) => VERIFICATION_LABELS[m.verification_level || 'claimed'] || (m.verification_level || 'claimed');
 ---
 
 <!DOCTYPE html>
@@ -37,13 +44,14 @@ const items = manufacturers.manufacturers;
 
       <h2>Directory</h2>
       <table>
-        <thead><tr><th>Company</th><th>Country</th><th>Chemistry</th><th>Battery types</th></tr></thead>
+        <thead><tr><th>Company</th><th>Country</th><th>Chemistry</th><th>Verification</th><th>Battery types</th></tr></thead>
         <tbody>
           {items.map((m) => (
             <tr>
               <td><a href={`/manufacturers/${m.id}/`}><strong>{m.name}</strong>{m.chinese ? ` (${m.chinese})` : ''}</a></td>
               <td>{m.country}</td>
               <td>{m.chemistry}</td>
+              <td>{levelLabel(m)}</td>
               <td>{m.products}</td>
             </tr>
           ))}

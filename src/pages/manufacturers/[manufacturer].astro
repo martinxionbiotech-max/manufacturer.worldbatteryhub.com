@@ -12,6 +12,16 @@ const { manufacturer } = Astro.props;
 const SITE = 'https://manufacturer.worldbatteryhub.com';
 const url = `${SITE}/manufacturers/${manufacturer.id}/`;
 
+// Three-level verification state (claimed / certificate-backed / independently-verified).
+// Default is 'claimed' — no certification is credited beyond what is recorded.
+const VERIFICATION_LABELS = {
+  claimed: 'Claimed',
+  'certificate-backed': 'Certificate-backed',
+  'independently-verified': 'Independently verified',
+};
+const verificationLevel = manufacturer.verification_level || 'claimed';
+const verificationLabel = VERIFICATION_LABELS[verificationLevel] || verificationLevel;
+
 const orgJsonLd = {
   '@type': 'Organization',
   '@id': `${url}#org`,
@@ -88,9 +98,10 @@ const orgJsonLd = {
 
       <h2>Verification</h2>
       <div class="warn">
+        <p><strong>Verification level:</strong> {verificationLabel}</p>
         <p><strong>Company identity:</strong> {manufacturer.verification.company}</p>
         <p><strong>Certifications:</strong> {manufacturer.verification.certifications}</p>
-        <p class="muted">This directory distinguishes a <em>claim</em> from an <em>independently accredited</em> certification — see the <a href="/verification-criteria/">verification criteria</a>.</p>
+        <p class="muted">This directory distinguishes a <em>claim</em> from a <em>certificate-backed</em> or <em>independently verified</em> status — see the <a href="/verification-criteria/">verification criteria</a>.</p>
       </div>
       <p class="muted">Last verified: {manufacturer.verification.date || '2026-09'}</p>
 

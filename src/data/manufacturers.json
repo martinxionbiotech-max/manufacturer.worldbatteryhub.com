@@ -14,7 +14,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "byd",
@@ -28,7 +29,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "lg-energy-solution",
@@ -42,7 +44,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "panasonic",
@@ -56,7 +59,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "samsung-sdi",
@@ -70,7 +74,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "eve-energy",
@@ -84,7 +89,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "calb",
@@ -98,7 +104,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "clarios",
@@ -112,7 +119,8 @@
         "company": "Verified (public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "exide",
@@ -126,7 +134,8 @@
         "company": "Verified (public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "varta",
@@ -140,7 +149,8 @@
         "company": "Verified (public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "enersys",
@@ -154,7 +164,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "gs-yuasa",
@@ -168,7 +179,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "camel",
@@ -182,7 +194,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "fengfan",
@@ -196,7 +209,8 @@
         "company": "Verified (public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "tianneng",
@@ -210,7 +224,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "chaowei",
@@ -224,7 +239,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "gotion",
@@ -238,7 +254,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "svolt",
@@ -252,7 +269,8 @@
         "company": "Verified (public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "sunwoda",
@@ -266,7 +284,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "leoch",
@@ -280,7 +299,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "narada",
@@ -294,7 +314,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "sacred-sun",
@@ -308,7 +329,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "aesc",
@@ -322,7 +344,8 @@
         "company": "Verified (public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "saft",
@@ -336,7 +359,8 @@
         "company": "Verified (TotalEnergies subsidiary)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "amara-raja",
@@ -350,7 +374,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "exide-industries",
@@ -364,7 +389,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "farasis",
@@ -378,7 +404,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "rept",
@@ -392,7 +419,8 @@
         "company": "Verified (listed, public footprint)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "acc",
@@ -406,7 +434,8 @@
         "company": "Verified (Stellantis/Mercedes/TotalEnergies JV)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "powerco",
@@ -420,7 +449,8 @@
         "company": "Verified (Volkswagen Group battery arm)",
         "certifications": "Claimed — not independently accredited here",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "tesla",
@@ -434,7 +464,8 @@
         "company": "Publicly traded (NASDAQ: TSLA); gigafactories in Nevada and Texas",
         "certifications": "Automotive-grade cell production claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "sk-on",
@@ -448,7 +479,8 @@
         "company": "SK Group subsidiary; US plants in Georgia and Kentucky",
         "certifications": "Automotive OEM supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "northvolt",
@@ -462,7 +494,8 @@
         "company": "Was Europe's flagship cell venture; entered bankruptcy proceedings in 2025",
         "certifications": "Automotive offtake agreements claimed per company reporting (pre-bankruptcy)",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "lishen",
@@ -476,7 +509,8 @@
         "company": "State-linked cell maker, long automotive supply history",
         "certifications": "Automotive supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "cbak",
@@ -490,7 +524,8 @@
         "company": "Publicly traded (NASDAQ: CBAT)",
         "certifications": "Automotive and tool supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "coslight",
@@ -504,7 +539,8 @@
         "company": "Long-standing telecom battery supplier",
         "certifications": "Telecom supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "shoto",
@@ -518,7 +554,8 @@
         "company": "Major telecom standby supplier",
         "certifications": "Telecom tender participation per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "east-penn",
@@ -532,7 +569,8 @@
         "company": "Privately held; one of the largest US lead-acid makers",
         "certifications": "OEM supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "trojan",
@@ -546,7 +584,8 @@
         "company": "Deep-cycle specialist, C&D Technologies group",
         "certifications": "Golf and RE supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "cnd-technologies",
@@ -560,7 +599,8 @@
         "company": "Standby-power specialist; owner of Trojan Battery",
         "certifications": "Utility and telecom supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "fiamm",
@@ -574,7 +614,8 @@
         "company": "European automotive and industrial battery maker",
         "certifications": "OEM supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "banner",
@@ -588,7 +629,8 @@
         "company": "Central European starter-battery maker",
         "certifications": "OEM supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "mutlu",
@@ -602,7 +644,8 @@
         "company": "Turkey's largest battery maker, export-oriented",
         "certifications": "OEM supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "atlasbx",
@@ -616,7 +659,8 @@
         "company": "Korean lead-acid major with US plants",
         "certifications": "OEM and aftermarket supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "furukawa",
@@ -630,7 +674,8 @@
         "company": "Long-standing Japanese battery maker",
         "certifications": "OEM supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "toshiba",
@@ -644,7 +689,8 @@
         "company": "SCiB LTO cells for buses, trains and infrastructure",
         "certifications": "Safety and cycle claims per company datasheets",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "murata",
@@ -658,7 +704,8 @@
         "company": "Acquired Sony's battery business in 2017",
         "certifications": "Consumer-grade supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "microvast",
@@ -672,7 +719,8 @@
         "company": "Publicly traded (NASDAQ: MVST)",
         "certifications": "Bus and CV supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "hithium",
@@ -686,7 +734,8 @@
         "company": "Fast-growing storage cell specialist",
         "certifications": "Storage project supply claimed per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     },
     {
       "id": "ganfeng",
@@ -700,7 +749,8 @@
         "company": "Publicly traded (HKEX/CN); lithium supplier turned cell maker",
         "certifications": "Supply chain position per company reporting",
         "date": "2026-09"
-      }
+      },
+      "verification_level": "claimed"
     }
   ]
 }
