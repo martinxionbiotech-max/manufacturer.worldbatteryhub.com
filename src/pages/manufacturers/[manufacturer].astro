@@ -35,12 +35,17 @@ const LEVEL_LABELS = {
 const lv = manufacturer.verification_levels || {};
 const dimLabel = (k) => LEVEL_LABELS[lv[k]] || 'Publicly identified (Level 1)';
 
+// Intelligence fields (audit #3 P1 item 6) — render only where evidence exists.
+const INTELLIGENCE_KEYS = ['cell_formats', 'markets', 'brands', 'subsidiaries', 'oem_relationships'];
+const hasIntelligence = INTELLIGENCE_KEYS.some((k) => manufacturer[k] && manufacturer[k].length);
+
 const orgJsonLd = {
   '@type': 'Organization',
   '@id': `${url}#org`,
   name: manufacturer.name,
   url: SITE,
   location: { '@type': 'Country', name: manufacturer.country },
+  ...(manufacturer.founded ? { foundingDate: String(manufacturer.founded) } : {}),
   description: `${manufacturer.name} (${manufacturer.chinese || manufacturer.country}) — ${manufacturer.chemistry} battery maker: ${manufacturer.products}.`,
 };
 ---
@@ -90,8 +95,25 @@ const orgJsonLd = {
           <tr><th>Headquarters</th><td>{manufacturer.hq}</td></tr>
           <tr><th>Chemistry</th><td>{manufacturer.chemistry}</td></tr>
           <tr><th>Products</th><td>{manufacturer.products}</td></tr>
+          {manufacturer.founded && <tr><th>Founded</th><td>{manufacturer.founded}</td></tr>}
+          {manufacturer.ownership && <tr><th>Ownership</th><td>{manufacturer.ownership}</td></tr>}
+          {manufacturer.listed && <tr><th>Listed</th><td>{manufacturer.listed}</td></tr>}
         </tbody>
       </table>
+
+      {hasIntelligence && (
+        <h2>Company intelligence</h2>
+        <table>
+          <tbody>
+            {manufacturer.cell_formats && <tr><th>Cell formats</th><td>{manufacturer.cell_formats.join(', ')}</td></tr>}
+            {manufacturer.markets && <tr><th>Markets</th><td>{manufacturer.markets.join(', ')}</td></tr>}
+            {manufacturer.brands && <tr><th>Brands</th><td>{manufacturer.brands.join(', ')}</td></tr>}
+            {manufacturer.subsidiaries && <tr><th>Subsidiaries</th><td>{manufacturer.subsidiaries.join(', ')}</td></tr>}
+            {manufacturer.oem_relationships && <tr><th>OEM relationships</th><td>{manufacturer.oem_relationships.join(', ')}</td></tr>}
+          </tbody>
+        </table>
+        <p class="muted">Fields are populated only where a public source supports the value; an absent field means the evidence was not found, not that the fact is false. See the <a href="https://worldbatteryhub.com/methodology/">methodology</a>.</p>
+      )}
 
       <h2>Technology focus</h2>
       <p>
