@@ -23,17 +23,19 @@ const verificationLevel = manufacturer.verification_level || 'claimed';
 const verificationLabel = VERIFICATION_LABELS[verificationLevel] || verificationLevel;
 
 // Four-dimension verification levels (audit #3 P0-3): Level 0-4 per dimension
+// Four-dimension verification levels — intuitive evidence labels (audit §六:
+// "Level 1/3" was meaningless without reading the methodology page).
 const LEVEL_LABELS = {
-  unverified: 'Unverified (Level 0)',
-  claimed: 'Claimed (Level 0)',
-  publicly_identified: 'Publicly identified (Level 1)',
-  cross_verified: 'Cross-verified (Level 2)',
-  first_party: 'First-party verified (Level 3)',
-  certificate_backed: 'Certificate-backed (Level 3)',
-  independently_verified: 'Independently verified (Level 4)',
+  unverified: 'Not verified — no documented source',
+  claimed: 'Claimed — self-reported only',
+  publicly_identified: '✓ Official company source',
+  cross_verified: '✓ Cross-checked across independent sources',
+  first_party: '✓ Manufacturer documentation',
+  certificate_backed: '✓ Certificate number verified',
+  independently_verified: '✓ Independently verified',
 };
 const lv = manufacturer.verification_levels || {};
-const dimLabel = (k) => LEVEL_LABELS[lv[k]] || 'Publicly identified (Level 1)';
+const dimLabel = (k) => LEVEL_LABELS[lv[k]] || '✓ Official company source';
 
 // Intelligence fields (audit #3 P1 item 6) — render only where evidence exists.
 const INTELLIGENCE_KEYS = ['cell_formats', 'markets', 'brands', 'subsidiaries', 'oem_relationships'];
@@ -136,14 +138,15 @@ const orgJsonLd = {
         <p><strong>Overall level:</strong> {verificationLabel}</p>
         <table>
           <tbody>
-            <tr><th>Company identity</th><td>{dimLabel('identity')}</td></tr>
-            <tr><th>Manufacturing capability</th><td>{dimLabel('capability')}</td></tr>
-            <tr><th>Product portfolio</th><td>{dimLabel('products')}</td></tr>
-            <tr><th>Certifications</th><td>{dimLabel('certifications')}</td></tr>
+            <tr><th>Identity evidence</th><td>{dimLabel('identity')}</td></tr>
+            <tr><th>Manufacturing evidence</th><td>{dimLabel('capability')}</td></tr>
+            <tr><th>Product evidence</th><td>{dimLabel('products')}</td></tr>
+            <tr><th>Certification evidence</th><td>{dimLabel('certifications')}</td></tr>
+            <tr><th>Independent verification</th><td>Not performed — no third-party audit commissioned</td></tr>
           </tbody>
         </table>
         <p><strong>Notes:</strong> {manufacturer.verification.company} · {manufacturer.verification.certifications}</p>
-        <p class="muted">Each dimension is rated independently — a company may be publicly identified while its certifications remain claims. See the <a href="/verification-criteria/">verification criteria</a>.</p>
+        <p class="muted">Each dimension shows what kind of evidence supports it. "Official company source" means the fact comes from the company's own publications, not an independent check. No listing here implies third-party verification — none has been commissioned. See the <a href="/verification-criteria/">verification criteria</a>.</p>
       </div>
       <p class="muted">Last verified: {manufacturer.verification.date || '2026-09'}</p>
 
