@@ -41,9 +41,13 @@ const dimLabel = (k) => LEVEL_LABELS[lv[k]] || '✓ Official company source';
 const INTELLIGENCE_KEYS = ['cell_formats', 'markets', 'brands', 'subsidiaries', 'oem_relationships'];
 const hasIntelligence = INTELLIGENCE_KEYS.some((k) => manufacturer[k] && manufacturer[k].length);
 
+// Unified Entity ID scheme (audit §36): WBH-MFR-<SLUG>
+const entityId = `WBH-MFR-${manufacturer.id.toUpperCase()}`;
+
 const orgJsonLd = {
   '@type': 'Organization',
   '@id': `${url}#org`,
+  identifier: entityId,
   name: manufacturer.name,
   url: SITE,
   location: { '@type': 'Country', name: manufacturer.country },
@@ -81,7 +85,7 @@ const orgJsonLd = {
   </head>
   <body>
     <div class="container">
-      <p class="muted"><a href="/">← Manufacturer Directory</a> · Entity: <strong>Organization</strong></p>
+      <p class="muted"><a href="/">← Manufacturer Directory</a> · Entity: <strong>Organization</strong> · ID: <code>{entityId}</code></p>
       <h1>{manufacturer.name}{manufacturer.chinese ? ` (${manufacturer.chinese})` : ''}</h1>
 
       <div class="box">
