@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manufacturer.worldbatteryhub.com/sitemap-index.xml
