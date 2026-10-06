@@ -326,7 +326,14 @@
         "Exide"
       ],
       "subsidiaries": null,
-      "oem_relationships": null
+      "oem_relationships": null,
+      "related_entities": [
+        {
+          "id": "exide-industries",
+          "name": "Exide Industries (India)",
+          "note": "Separate Indian listed company — distinct from Exide Technologies (USA); not the same group."
+        }
+      ]
     },
     {
       "id": "varta",
@@ -866,7 +873,14 @@
         "Exide"
       ],
       "subsidiaries": null,
-      "oem_relationships": null
+      "oem_relationships": null,
+      "related_entities": [
+        {
+          "id": "exide",
+          "name": "Exide Technologies (USA)",
+          "note": "Separate US company — distinct from Exide Industries (India); not the same group."
+        }
+      ]
     },
     {
       "id": "farasis",

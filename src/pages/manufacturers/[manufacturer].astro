@@ -197,6 +197,22 @@ const orgJsonLd = {
       </div>
       <p class="muted">Last verified: {manufacturer.verification.date || '2026-09'}</p>
 
+      {manufacturer.related_entities && manufacturer.related_entities.length > 0 && (
+        <>
+          <h2>Related entities</h2>
+          <table>
+            <tbody>
+              {manufacturer.related_entities.map((r) => (
+                <tr>
+                  <th>{r.name}</th>
+                  <td>{r.note} <a href={`/manufacturers/${r.id}/`}>View {r.name}</a></td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </>
+      )}
+
       <h2>Related</h2>
       <div class="related">
         <a href="/">Manufacturer directory</a>
