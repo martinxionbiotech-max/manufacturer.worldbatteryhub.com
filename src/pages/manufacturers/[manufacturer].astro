@@ -137,6 +137,49 @@ const orgJsonLd = {
         <a href="https://worldbatteryhub.com/lithium/">lithium applications</a>.
       </p>
 
+      {manufacturer.history && manufacturer.history.length > 0 && (
+        <>
+          <h2>History</h2>
+          <table>
+            <tbody>
+              {manufacturer.history.map((h) => (
+                <tr><th>{h.year}</th><td>{h.event}</td></tr>
+              ))}
+            </tbody>
+          </table>
+          <p class="muted">Milestones are compiled from public sources (company history pages, major news reporting). Dates reflect reporting, not audit.</p>
+        </>
+      )}
+
+      {manufacturer.production_facilities && manufacturer.production_facilities.length > 0 && (
+        <>
+          <h2>Production facilities</h2>
+          <ul>
+            {manufacturer.production_facilities.map((f) => <li>{f}</li>)}
+          </ul>
+        </>
+      )}
+
+      {manufacturer.joint_ventures && manufacturer.joint_ventures.length > 0 && (
+        <>
+          <h2>Joint ventures</h2>
+          <table>
+            <tbody>
+              {manufacturer.joint_ventures.map((j) => (
+                <tr><th>{j.name}</th><td>With {j.partner} — {j.location}. {j.note}</td></tr>
+              ))}
+            </tbody>
+          </table>
+        </>
+      )}
+
+      {manufacturer.capacity && (
+        <>
+          <h2>Capacity</h2>
+          <p>{manufacturer.capacity.value} <span class="muted">({manufacturer.capacity.basis})</span></p>
+        </>
+      )}
+
       <h2>Verification</h2>
       <div class="warn">
         <p><strong>Overall level:</strong> {verificationLabel}</p>
@@ -157,6 +200,8 @@ const orgJsonLd = {
       <h2>Related</h2>
       <div class="related">
         <a href="/">Manufacturer directory</a>
+        <a href="https://data.worldbatteryhub.com/battery-groups/">Battery group reference data</a>
+        <a href="https://testing.worldbatteryhub.com/">Battery testing reference</a>
         <a href="/china-lead-acid-manufacturers/">China lead-acid manufacturers</a>
         <a href="/lithium-ev-manufacturers/">Lithium EV manufacturers</a>
         <a href="https://market.worldbatteryhub.com/battery-market-overview/">Market overview</a>

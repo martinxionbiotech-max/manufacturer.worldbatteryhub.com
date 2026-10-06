@@ -1054,9 +1054,9 @@
       "chemistry": "Lithium (NMC / LFP)",
       "products": "EV cells",
       "verification": {
-        "company": "SK Group subsidiary; US plants in Georgia and Kentucky",
+        "company": "SK Group subsidiary; US plants in Georgia and Kentucky; OEM supply relationships per CNBC 2021 and official SK Battery America history",
         "certifications": "Automotive OEM supply claimed per company reporting",
-        "date": "2026-09"
+        "date": "2026-10-06"
       },
       "verification_level": "claimed",
       "verification_levels": {
@@ -1080,8 +1080,52 @@
       "subsidiaries": null,
       "oem_relationships": [
         "Ford",
-        "Hyundai"
-      ]
+        "Hyundai",
+        "Kia",
+        "Volkswagen",
+        "Daimler (Mercedes-Benz)"
+      ],
+      "history": [
+        {
+          "year": "2021",
+          "event": "SK On established as the battery business spin-off of SK Innovation (completed 1 October 2021)"
+        },
+        {
+          "year": "2022",
+          "event": "Ranked #5 globally in EV battery market share (~7%) in H1 2022 per SNE Research"
+        },
+        {
+          "year": "2022",
+          "event": "Began mass production at Georgia Factory 1 (Commerce, USA); trial production at Factory 2"
+        },
+        {
+          "year": "2023",
+          "event": "Mass production at Georgia Factory 2; construction of cathode plant in Quebec, Canada began"
+        },
+        {
+          "year": "2025",
+          "event": "Merged with SK Enmove (announced Nov 2025 by SK Innovation)"
+        }
+      ],
+      "production_facilities": [
+        "Seosan, South Korea (incl. Battery Safety Evaluation Center)",
+        "Commerce, Georgia, USA — Factory 1 & 2",
+        "Komárom & Iváncsa, Hungary",
+        "Changzhou, Huizhou, Yancheng, China",
+        "BlueOvalSK Kentucky & Tennessee, USA (JV with Ford)"
+      ],
+      "joint_ventures": [
+        {
+          "partner": "Ford Motor Company",
+          "name": "BlueOvalSK",
+          "location": "Kentucky & Tennessee, USA",
+          "note": "Announced September 2021; plants 1&2 Kentucky, plant 1 Tennessee"
+        }
+      ],
+      "capacity": {
+        "value": "~40 GWh annual (2021 reporting); target ~125 GWh by 2025 per CNBC May 2021",
+        "basis": "Company/JV reporting, dated claim — not independently audited"
+      }
     },
     {
       "id": "northvolt",
