@@ -1,0 +1,24 @@
+# World Battery Hub — Manufacturer
+
+> Battery manufacturer directory organized by region (China, US, Europe, India, Korea/Japan, and lithium/EV), with a product-verification framework. Sub-site of the World Battery Hub family.
+
+## Core Pages
+
+- [Home](https://manufacturer.worldbatteryhub.com/): Entry point to the manufacturer directory.
+- [China Lead-Acid Manufacturers](https://manufacturer.worldbatteryhub.com/china-lead-acid-manufacturers/): Directory of Chinese lead-acid battery manufacturers.
+- [US Battery Manufacturers](https://manufacturer.worldbatteryhub.com/us-battery-manufacturers/): Directory of US battery manufacturers.
+- [European Battery Manufacturers](https://manufacturer.worldbatteryhub.com/european-battery-manufacturers/): Directory of European battery manufacturers.
+- [Indian Battery Manufacturers](https://manufacturer.worldbatteryhub.com/indian-battery-manufacturers/): Directory of Indian battery manufacturers.
+- [Korean & Japanese Battery Manufacturers](https://manufacturer.worldbatteryhub.com/korean-japanese-battery-manufacturers/): Directory of Korean and Japanese battery manufacturers.
+- [Lithium & EV Manufacturers](https://manufacturer.worldbatteryhub.com/lithium-ev-manufacturers/): Directory of lithium and EV battery manufacturers.
+- [Manufacturers](https://manufacturer.worldbatteryhub.com/manufacturers/): Individual manufacturer profiles (via /manufacturers/[manufacturer]/).
+- [Product Verification](https://manufacturer.worldbatteryhub.com/product-verification/): Product/authenticity verification guidance.
+- [Verification Criteria](https://manufacturer.worldbatteryhub.com/verification-criteria/): Criteria used to assess and verify manufacturers.
+
+## Main site
+
+- [World Battery Hub](https://worldbatteryhub.com/): Main knowledge hub (guides, tools, glossary, methodology).
+
+## Notes
+
+- Directory listings are reference compilations; verify manufacturer credentials, certifications, and product authenticity independently before procurement.
