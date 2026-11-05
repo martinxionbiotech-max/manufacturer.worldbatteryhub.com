@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && SITE_URL=https://manufacturer.worldbatteryhub.com SITE_NAME=\"World Battery Hub — Manufacturers\" SITE_DESC=\"Battery manufacturer directory: China, Japan/Korea, Europe, US, India and lithium EV manufacturers, with verification labels and evidence notes.\" node ../scripts/postbuild.mjs && node ../scripts/generate-markdown.mjs",
+    "build": "astro build && SITE_URL=https://manufacturer.worldbatteryhub.com SITE_NAME=\"World Battery Hub — Manufacturers\" SITE_DESC=\"Battery manufacturer directory: China, Japan/Korea, Europe, US, India and lithium EV manufacturers, with verification labels and evidence notes.\" OG_IMAGE=https://manufacturer.worldbatteryhub.com/images/og.webp node ../scripts/postbuild.mjs && node ../scripts/generate-markdown.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },
