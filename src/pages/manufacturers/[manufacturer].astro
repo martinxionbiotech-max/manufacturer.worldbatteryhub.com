@@ -213,6 +213,31 @@ const orgJsonLd = {
         </>
       )}
 
+      <h2>What this verification means</h2>
+      <p>
+        {manufacturer.name} is recorded at the <strong>{verificationLabel}</strong> level.
+        Identity: {dimLabel('identity')}. Capability: {dimLabel('capability')}.
+        Products: {dimLabel('products')}. Certifications: {dimLabel('certifications')}.
+        The label describes the evidence we hold at the review date — not a guarantee that every shipment will conform.
+      </p>
+      <h2>What to request before ordering</h2>
+      <ol>
+        <li>The business licence and the exact legal entity name that will appear on the invoice.</li>
+        <li>Quality-system certificate (ISO 9001) and environmental certificate (ISO 14001), with certificate numbers and scope.</li>
+        <li>Product certificates relevant to the destination (IEC, UL, EN, JIS) and the test reports behind them.</li>
+        <li>Two recent batch test reports for the specific model you are buying, not a catalogue page.</li>
+        <li>A factory audit or video walkthrough, and the name of the production site that will make the goods.</li>
+      </ol>
+      <h2>Sourcing context</h2>
+      <p>
+        Chemistry: {manufacturer.chemistry}. Products: {manufacturer.products}.
+        Headquarters: {manufacturer.hq}, {manufacturer.country}.
+        {manufacturer.founded ? `Founded ${manufacturer.founded}. ` : ''}
+        {manufacturer.ownership ? `Ownership: ${manufacturer.ownership}. ` : ''}
+        {manufacturer.listed ? `Listed: ${manufacturer.listed}. ` : ''}
+        Use these facts to frame the first conversation, then verify them against the documents the supplier provides.
+      </p>
+
       <h2>Related</h2>
       <div class="related">
         <a href="/">Manufacturer directory</a>
