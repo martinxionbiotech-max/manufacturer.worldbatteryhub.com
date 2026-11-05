@@ -1,5 +1,9 @@
 ---
 const SITE = 'https://manufacturer.worldbatteryhub.com';
+import manufacturers from '../../data/manufacturers.json';
+const all = manufacturers.manufacturers;
+const VER = { claimed: 'Claimed', 'certificate-backed': 'Certificate-backed', 'independently-verified': 'Independently verified' };
+const region = all.filter((m) => m.chemistry.includes('Lithium')).sort((a, b) => a.name.localeCompare(b.name));
 ---
 
 <!DOCTYPE html>
@@ -89,6 +93,23 @@ const SITE = 'https://manufacturer.worldbatteryhub.com';
         <li>SNE Research — global EV battery installation and market-share data (2024 and Jan–Nov 2025).</li>
         <li>Company disclosures — CATL, BYD, LG Energy Solution installed capacity.</li>
       </ul>
+
+      <h2>Complete Lithium list</h2>
+      <p class="muted">Every profile recorded for this region, including the long tail. The verification label describes the evidence held at the review date, not a quality ranking.</p>
+      <table>
+        <thead><tr><th>Company</th><th>Headquarters</th><th>Chemistry</th><th>Products</th><th>Verification</th></tr></thead>
+        <tbody>
+          {region.map((m) => (
+            <tr>
+              <td><a href={`/manufacturers/${m.id}/`}>{m.name}</a></td>
+              <td>{m.hq}, {m.country}</td>
+              <td>{m.chemistry}</td>
+              <td>{m.products}</td>
+              <td>{VER[m.verification_level] || m.verification_level}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
 
       <p class="muted">Return to <a href="https://manufacturer.worldbatteryhub.com">Battery Manufacturer Directory</a> · <a href="https://worldbatteryhub.com">World Battery Hub</a>. Data is researched from public sources and cross-verified; it is informational, not purchasing advice.</p>
     </div>

@@ -1,5 +1,9 @@
 ---
 const SITE = 'https://manufacturer.worldbatteryhub.com';
+import manufacturers from '../../data/manufacturers.json';
+const all = manufacturers.manufacturers;
+const VER = { claimed: 'Claimed', 'certificate-backed': 'Certificate-backed', 'independently-verified': 'Independently verified' };
+const region = all.filter((m) => /(Germany|France|Italy|Sweden|Austria|Turkey)/.test(m.country)).sort((a, b) => a.name.localeCompare(b.name));
 ---
 
 <!DOCTYPE html>
@@ -80,6 +84,23 @@ const SITE = 'https://manufacturer.worldbatteryhub.com';
         <li>Company reporting — Varta/Clarios, Saft, ACC, PowerCo.</li>
         <li>EU Battery Regulation (EU) 2023/1542 and gigafactory announcements.</li>
       </ul>
+
+      <h2>Complete European list</h2>
+      <p class="muted">Every profile recorded for this region, including the long tail. The verification label describes the evidence held at the review date, not a quality ranking.</p>
+      <table>
+        <thead><tr><th>Company</th><th>Headquarters</th><th>Chemistry</th><th>Products</th><th>Verification</th></tr></thead>
+        <tbody>
+          {region.map((m) => (
+            <tr>
+              <td><a href={`/manufacturers/${m.id}/`}>{m.name}</a></td>
+              <td>{m.hq}, {m.country}</td>
+              <td>{m.chemistry}</td>
+              <td>{m.products}</td>
+              <td>{VER[m.verification_level] || m.verification_level}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
 
       <p class="muted">Return to <a href="https://manufacturer.worldbatteryhub.com">Battery Manufacturer Directory</a> · <a href="https://worldbatteryhub.com">World Battery Hub</a>.</p>
     </div>
