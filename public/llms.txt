@@ -1,24 +1,74 @@
-# World Battery Hub — Manufacturer
+# World Battery Hub — Battery Manufacturer Directory
 
-> Battery manufacturer directory organized by region (China, US, Europe, India, Korea/Japan, and lithium/EV), with a product-verification framework. Sub-site of the World Battery Hub family.
+> A verified directory of battery manufacturers by region — China, Japan/Korea, Europe, the US, India and lithium EV — with evidence labels, company profiles and the checks that matter before an order.
 
-## Core Pages
+## Core pages
 
-- [Home](https://manufacturer.worldbatteryhub.com/): Entry point to the manufacturer directory.
-- [China Lead-Acid Manufacturers](https://manufacturer.worldbatteryhub.com/china-lead-acid-manufacturers/): Directory of Chinese lead-acid battery manufacturers.
-- [US Battery Manufacturers](https://manufacturer.worldbatteryhub.com/us-battery-manufacturers/): Directory of US battery manufacturers.
-- [European Battery Manufacturers](https://manufacturer.worldbatteryhub.com/european-battery-manufacturers/): Directory of European battery manufacturers.
-- [Indian Battery Manufacturers](https://manufacturer.worldbatteryhub.com/indian-battery-manufacturers/): Directory of Indian battery manufacturers.
-- [Korean & Japanese Battery Manufacturers](https://manufacturer.worldbatteryhub.com/korean-japanese-battery-manufacturers/): Directory of Korean and Japanese battery manufacturers.
-- [Lithium & EV Manufacturers](https://manufacturer.worldbatteryhub.com/lithium-ev-manufacturers/): Directory of lithium and EV battery manufacturers.
-- [Manufacturers](https://manufacturer.worldbatteryhub.com/manufacturers/): Individual manufacturer profiles (via /manufacturers/[manufacturer]/).
-- [Product Verification](https://manufacturer.worldbatteryhub.com/product-verification/): Product/authenticity verification guidance.
-- [Verification Criteria](https://manufacturer.worldbatteryhub.com/verification-criteria/): Criteria used to assess and verify manufacturers.
+- [Directory home](https://manufacturer.worldbatteryhub.com/): all 50 manufacturer profiles, by region.
+- [China lead-acid manufacturers](https://manufacturer.worldbatteryhub.com/china-lead-acid-manufacturers/): the majors and the OEM/private-label long tail.
+- [Korean & Japanese manufacturers](https://manufacturer.worldbatteryhub.com/korean-japanese-battery-manufacturers/): cell makers and technology leaders.
+- [European manufacturers](https://manufacturer.worldbatteryhub.com/european-battery-manufacturers/): lead-acid, industrial and gigafactory-stage lithium.
+- [US manufacturers](https://manufacturer.worldbatteryhub.com/us-battery-manufacturers/): domestic cell and pack capacity.
+- [Indian manufacturers](https://manufacturer.worldbatteryhub.com/indian-battery-manufacturers/): local production and import-led demand.
+- [Lithium EV manufacturers](https://manufacturer.worldbatteryhub.com/lithium-ev-manufacturers/): capacity concentration and market share.
+- [Product verification](https://manufacturer.worldbatteryhub.com/product-verification/): how to verify a supplier claim.
+- [Verification criteria](https://manufacturer.worldbatteryhub.com/verification-criteria/): the four evidence dimensions.
 
-## Main site
+## Manufacturer profiles
 
-- [World Battery Hub](https://worldbatteryhub.com/): Main knowledge hub (guides, tools, glossary, methodology).
+- [ACC (Automotive Cells Co)](https://manufacturer.worldbatteryhub.com/manufacturers/acc/): France / Germany / Italy · Lithium (NMC) · EV cells & packs · Verification: Claimed
+- [AESC](https://manufacturer.worldbatteryhub.com/manufacturers/aesc/): China / Japan · Lithium (NMC) · EV cells & packs · Verification: Claimed
+- [Amara Raja](https://manufacturer.worldbatteryhub.com/manufacturers/amara-raja/): India · Lead-acid & lithium · Automotive & industrial · Verification: Claimed
+- [AtlasBX (Hankook & Company)](https://manufacturer.worldbatteryhub.com/manufacturers/atlasbx/): South Korea · Lead-acid (flooded / AGM) · Automotive starter batteries (Hankook brand) · Verification: Claimed
+- [Banner Batteries](https://manufacturer.worldbatteryhub.com/manufacturers/banner/): Austria · Lead-acid (flooded / EFB / AGM) · Automotive starter batteries · Verification: Claimed
+- [BYD](https://manufacturer.worldbatteryhub.com/manufacturers/byd/): China · Lithium (LFP) · EV Blade battery, energy storage · Verification: Claimed
+- [C&D Technologies](https://manufacturer.worldbatteryhub.com/manufacturers/cnd-technologies/): United States · Lead-acid (VRLA) + Lithium · Standby power for telecom and utilities · Verification: Claimed
+- [CALB](https://manufacturer.worldbatteryhub.com/manufacturers/calb/): China · Lithium (LFP/NMC) · EV cells & packs · Verification: Claimed
+- [Camel Group](https://manufacturer.worldbatteryhub.com/manufacturers/camel/): China · Lead-acid · Automotive SLI/AGM · Verification: Claimed
+- [CATL](https://manufacturer.worldbatteryhub.com/manufacturers/catl/): China · Lithium (LFP/NMC) · EV cells & packs, energy storage · Verification: Claimed
+- [CBAK Energy](https://manufacturer.worldbatteryhub.com/manufacturers/cbak/): China · Lithium (NMC / LFP) · Cylindrical cells, EV and tool batteries · Verification: Claimed
+- [Chaowei Power](https://manufacturer.worldbatteryhub.com/manufacturers/chaowei/): China · Lead-acid · Automotive & e-bike · Verification: Claimed
+- [Clarios](https://manufacturer.worldbatteryhub.com/manufacturers/clarios/): USA · Lead-acid (AGM/EFB) · Automotive SLI · Verification: Claimed
+- [Coslight](https://manufacturer.worldbatteryhub.com/manufacturers/coslight/): China · Lead-acid + Lithium · Telecom and industrial batteries · Verification: Claimed
+- [East Penn Manufacturing](https://manufacturer.worldbatteryhub.com/manufacturers/east-penn/): United States · Lead-acid (flooded / AGM) · Automotive (Deka), industrial and reserve power batteries · Verification: Claimed
+- [EnerSys](https://manufacturer.worldbatteryhub.com/manufacturers/enersys/): USA · Lead-acid & lithium · Industrial, motive power · Verification: Claimed
+- [EVE Energy](https://manufacturer.worldbatteryhub.com/manufacturers/eve-energy/): China · Lithium (LFP) · Cells, power & storage · Verification: Claimed
+- [Exide Industries](https://manufacturer.worldbatteryhub.com/manufacturers/exide-industries/): India · Lead-acid · Automotive & industrial · Verification: Claimed
+- [Exide Technologies](https://manufacturer.worldbatteryhub.com/manufacturers/exide/): USA · Lead-acid · Automotive & industrial · Verification: Claimed
+- [Farasis Energy](https://manufacturer.worldbatteryhub.com/manufacturers/farasis/): China · Lithium (NMC/LFP) · EV cells & packs · Verification: Claimed
+- [Fengfan](https://manufacturer.worldbatteryhub.com/manufacturers/fengfan/): China · Lead-acid · Automotive SLI · Verification: Claimed
+- [FIAMM Energy Technology](https://manufacturer.worldbatteryhub.com/manufacturers/fiamm/): Italy · Lead-acid (AGM / gel) + Lithium · Automotive, motive power and standby batteries · Verification: Claimed
+- [Furukawa Battery](https://manufacturer.worldbatteryhub.com/manufacturers/furukawa/): Japan · Lead-acid + Lithium · Automotive (UltraBattery lineage), industrial and aerospace batteries · Verification: Claimed
+- [Ganfeng Lithium](https://manufacturer.worldbatteryhub.com/manufacturers/ganfeng/): China · Lithium (LFP / NMC) + lithium materials · Lithium chemicals and battery cells · Verification: Claimed
+- [Gotion High-Tech](https://manufacturer.worldbatteryhub.com/manufacturers/gotion/): China · Lithium (LFP) · EV cells & packs, storage · Verification: Claimed
+- [GS Yuasa](https://manufacturer.worldbatteryhub.com/manufacturers/gs-yuasa/): Japan · Lead-acid & lithium · Automotive & industrial · Verification: Claimed
+- [Hithium](https://manufacturer.worldbatteryhub.com/manufacturers/hithium/): China · Lithium (LFP) · Stationary storage cells and systems · Verification: Claimed
+- [Leoch](https://manufacturer.worldbatteryhub.com/manufacturers/leoch/): China · Lead-acid & lithium · Automotive & industrial · Verification: Claimed
+- [LG Energy Solution](https://manufacturer.worldbatteryhub.com/manufacturers/lg-energy-solution/): South Korea · Lithium (NMC/LFP) · EV cells & packs · Verification: Claimed
+- [Lishen](https://manufacturer.worldbatteryhub.com/manufacturers/lishen/): China · Lithium (NMC / LFP) · EV, power tool and storage cells · Verification: Claimed
+- [Microvast](https://manufacturer.worldbatteryhub.com/manufacturers/microvast/): United States / China · Lithium (NMC / LFP) · Commercial-vehicle and bus batteries · Verification: Claimed
+- [Murata Manufacturing](https://manufacturer.worldbatteryhub.com/manufacturers/murata/): Japan · Lithium (consumer cells) · Cylindrical cells (Sony battery heritage) · Verification: Claimed
+- [Mutlu Aku](https://manufacturer.worldbatteryhub.com/manufacturers/mutlu/): Turkey · Lead-acid (flooded / EFB / AGM) · Automotive starter batteries · Verification: Claimed
+- [Narada Power](https://manufacturer.worldbatteryhub.com/manufacturers/narada/): China · Lead-acid & lithium · Industrial & storage · Verification: Claimed
+- [Northvolt](https://manufacturer.worldbatteryhub.com/manufacturers/northvolt/): Sweden · Lithium (NMC) · EV cells (Ett gigafactory) · Verification: Claimed
+- [Panasonic](https://manufacturer.worldbatteryhub.com/manufacturers/panasonic/): Japan · Lithium (NMC) · EV cells (cylindrical) · Verification: Claimed
+- [PowerCo (VW Group)](https://manufacturer.worldbatteryhub.com/manufacturers/powerco/): Germany · Lithium · EV cells · Verification: Claimed
+- [REPT Battero](https://manufacturer.worldbatteryhub.com/manufacturers/rept/): China · Lithium (LFP) · EV & storage cells · Verification: Claimed
+- [Sacred Sun](https://manufacturer.worldbatteryhub.com/manufacturers/sacred-sun/): China · Lead-acid · Industrial & telecom · Verification: Claimed
+- [Saft](https://manufacturer.worldbatteryhub.com/manufacturers/saft/): France · Lithium & nickel & primary · Industrial, aerospace, defense · Verification: Claimed
+- [Samsung SDI](https://manufacturer.worldbatteryhub.com/manufacturers/samsung-sdi/): South Korea · Lithium (NMC) · EV cells & packs · Verification: Claimed
+- [Shoto (Shuangdeng)](https://manufacturer.worldbatteryhub.com/manufacturers/shoto/): China · Lead-acid + Lithium · Telecom, data-centre and storage batteries · Verification: Claimed
+- [SK On](https://manufacturer.worldbatteryhub.com/manufacturers/sk-on/): South Korea · Lithium (NMC / LFP) · EV cells · Verification: Claimed
+- [Sunwoda](https://manufacturer.worldbatteryhub.com/manufacturers/sunwoda/): China · Lithium · Consumer & EV cells · Verification: Claimed
+- [SVOLT](https://manufacturer.worldbatteryhub.com/manufacturers/svolt/): China · Lithium (LFP/NMC) · EV cells & packs · Verification: Claimed
+- [Tesla](https://manufacturer.worldbatteryhub.com/manufacturers/tesla/): United States · Lithium (NCA / NMC / LFP) · EV cells (4680) and battery packs · Verification: Claimed
+- [Tianneng Power](https://manufacturer.worldbatteryhub.com/manufacturers/tianneng/): China · Lead-acid · Automotive & e-bike · Verification: Claimed
+- [Toshiba (SCiB)](https://manufacturer.worldbatteryhub.com/manufacturers/toshiba/): Japan · Lithium (LTO — lithium titanate) · SCiB fast-charge, long-life cells · Verification: Claimed
+- [Trojan Battery](https://manufacturer.worldbatteryhub.com/manufacturers/trojan/): United States · Lead-acid (flooded / AGM deep-cycle) · Deep-cycle golf, floor-machine and renewable batteries · Verification: Claimed
+- [Varta](https://manufacturer.worldbatteryhub.com/manufacturers/varta/): Germany · Lead-acid · Automotive SLI/AGM/EFB · Verification: Claimed
 
 ## Notes
 
-- Directory listings are reference compilations; verify manufacturer credentials, certifications, and product authenticity independently before procurement.
+- Verification labels describe the evidence held at the review date, not a quality ranking.
+- Company facts are cross-checked against public sources; capacity and revenue figures are omitted where no linked source exists.
+- The directory is informational; it is not a recommendation or a guarantee of any shipment.
